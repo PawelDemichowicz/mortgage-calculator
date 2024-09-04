@@ -2,6 +2,7 @@ package service;
 
 import model.InputData;
 import model.Rate;
+import model.Summary;
 
 import java.util.List;
 
@@ -49,6 +50,15 @@ public class PrintingServiceImpl implements PrintingService {
                 System.out.println();
             }
         }
+    }
+
+    @Override
+    public void printSummary(Summary summary) {
+        StringBuilder msg = new StringBuilder(NEW_LINE);
+        msg.append(INTEREST_SUM).append(summary.getInterestSum()).append(CURRENCY);
+        msg.append(NEW_LINE);
+
+        printMessage(msg);
     }
 
     private void printMessage(StringBuilder sb) {
