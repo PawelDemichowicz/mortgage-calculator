@@ -24,4 +24,13 @@ public class RateAmounts {
     public BigDecimal getCapitalAmount() {
         return capitalAmount;
     }
+
+    @Override
+    public String toString() {
+        return "RateAmounts{" +
+                "rateAmount=" + rateAmount +
+                ", interestAmount=" + interestAmount +
+                ", capitalAmount=" + capitalAmount +
+                '}';
+    }
 }

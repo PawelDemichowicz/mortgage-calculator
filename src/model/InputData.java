@@ -11,7 +11,7 @@ public class InputData {
     private BigDecimal amount = new BigDecimal("300000");
     private BigDecimal monthsDuration = BigDecimal.valueOf(180);
 
-    private RateType rateType = RateType.CONSTANT;
+    private RateType rateType = RateType.DECREASING;
 
     private BigDecimal bankMarginPercent = new BigDecimal("1.9");
 
