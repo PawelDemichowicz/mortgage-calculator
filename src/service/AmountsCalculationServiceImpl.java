@@ -103,7 +103,7 @@ public class AmountsCalculationServiceImpl implements AmountsCalculationService 
     }
 
     private BigDecimal calculateDecreasingCapitalAmount(BigDecimal amount, BigDecimal monthsDuration) {
-        return amount.divide(monthsDuration, 2, RoundingMode.HALF_UP);
+        return amount.divide(monthsDuration, 10, RoundingMode.HALF_UP);
     }
 
 }

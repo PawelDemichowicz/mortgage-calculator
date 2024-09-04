@@ -1,6 +1,9 @@
 package service;
 
 import model.InputData;
+import model.Rate;
+
+import java.util.List;
 
 public class PrintingServiceImpl implements PrintingService {
     @Override
@@ -14,6 +17,38 @@ public class PrintingServiceImpl implements PrintingService {
         msg.append(NEW_LINE);
 
         printMessage(msg);
+    }
+
+    @Override
+    public void printRates(List<Rate> rates) {
+        String format = "%4s %3s " +
+                "%4s %3s " +
+                "%3s %2s " +
+                "%4s %2s " +
+                "%4s %8s " +
+                "%7s %8s " +
+                "%7s %10s " +
+                "%7s %10s " +
+                "%7s %3s ";
+
+        for (Rate rate : rates) {
+            String message = String.format(format,
+                    RATE_NUMBER, rate.getRateNumber(),
+                    DATE, rate.getTimePoint().getDate(),
+                    YEAR, rate.getTimePoint().getYear(),
+                    MONTH, rate.getTimePoint().getMonth(),
+                    RATE, rate.getRateAmounts().getRateAmount(),
+                    INTEREST, rate.getRateAmounts().getInterestAmount(),
+                    CAPITAL, rate.getRateAmounts().getCapitalAmount(),
+                    LEFT_AMOUNT, rate.getMortgageResidual().getAmount(),
+                    LEFT_MONTHS, rate.getMortgageResidual().getDuration()
+            );
+            printMessage(new StringBuilder(message));
+
+            if ((rate.getRateNumber().intValue() % 12) == 0) {
+                System.out.println();
+            }
+        }
     }
 
     private void printMessage(StringBuilder sb) {
