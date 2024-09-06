@@ -5,9 +5,6 @@ import model.Overpayment;
 import model.Rate;
 import model.RateAmounts;
 
-import java.math.BigDecimal;
-import java.math.RoundingMode;
-
 public class AmountsCalculationServiceImpl implements AmountsCalculationService {
     private final ConstantAmountsCalculationService constantAmountsCalculationService;
     private final DecreasingAmountsCalculationService decreasingAmountsCalculationService;

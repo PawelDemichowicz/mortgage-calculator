@@ -17,8 +17,8 @@ public class SummaryServiceFactory {
                     rates,
                     rate -> rate.getRateAmounts().getOverpayment().getProvisionAmount()
             );
-            BigDecimal totalLosts = interestSum.add(provisionSum);
-            return new Summary(interestSum, provisionSum, totalLosts);
+            BigDecimal totalLost = interestSum.add(provisionSum);
+            return new Summary(interestSum, provisionSum, totalLost);
         };
     }
 

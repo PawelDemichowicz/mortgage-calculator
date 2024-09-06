@@ -84,7 +84,7 @@ public class PrintingServiceImpl implements PrintingService {
         msg.append(NEW_LINE);
         msg.append(OVERPAYMENT_PROVISION).append(summary.getOverpaymentProvisionSum()).append(CURRENCY);
         msg.append(NEW_LINE);
-        msg.append(LOSTS_SUM).append(summary.getTotalLosts()).append(CURRENCY);
+        msg.append(LOSTS_SUM).append(summary.getTotalLost()).append(CURRENCY);
         msg.append(NEW_LINE);
 
         printMessage(msg);

@@ -5,12 +5,12 @@ import java.math.BigDecimal;
 public class Summary {
     private final BigDecimal interestSum;
     private final BigDecimal overpaymentProvisionSum;
-    private final BigDecimal totalLosts;
+    private final BigDecimal totalLost;
 
-    public Summary(BigDecimal interestSum, BigDecimal overpaymentProvisionSum, BigDecimal totalLosts) {
+    public Summary(BigDecimal interestSum, BigDecimal overpaymentProvisionSum, BigDecimal totalLost) {
         this.interestSum = interestSum;
         this.overpaymentProvisionSum = overpaymentProvisionSum;
-        this.totalLosts = totalLosts;
+        this.totalLost = totalLost;
     }
 
     public BigDecimal getInterestSum() {
@@ -21,7 +21,7 @@ public class Summary {
         return overpaymentProvisionSum;
     }
 
-    public BigDecimal getTotalLosts() {
-        return totalLosts;
+    public BigDecimal getTotalLost() {
+        return totalLost;
     }
 }

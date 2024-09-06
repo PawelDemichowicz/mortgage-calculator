@@ -6,7 +6,6 @@ import model.TimePoint;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
 
 public class TimePointServiceImpl implements TimePointService {
     private static final BigDecimal YEAR = BigDecimal.valueOf(12);
@@ -21,8 +20,7 @@ public class TimePointServiceImpl implements TimePointService {
     }
 
     private LocalDate calculateDate(BigDecimal rateNumber, InputData inputData) {
-        return inputData.getRepaymentStartDate()
-                .plus(rateNumber.subtract(BigDecimal.ONE).intValue(), ChronoUnit.MONTHS);
+        return inputData.getRepaymentStartDate().plusMonths(rateNumber.subtract(BigDecimal.ONE).intValue());
     }
 
     private BigDecimal calculateYear(final BigDecimal rateNumber) {
