@@ -1,20 +1,16 @@
 package com.mortgage.model;
 
+import lombok.Value;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+@Value
 public class RateAmounts {
-    private final BigDecimal rateAmount;
-    private final BigDecimal interestAmount;
-    private final BigDecimal capitalAmount;
-    private final Overpayment overpayment;
-
-    public RateAmounts(BigDecimal rateAmount, BigDecimal interestAmount, BigDecimal capitalAmount, Overpayment overpayment) {
-        this.rateAmount = rateAmount;
-        this.interestAmount = interestAmount;
-        this.capitalAmount = capitalAmount;
-        this.overpayment = overpayment;
-    }
+    BigDecimal rateAmount;
+    BigDecimal interestAmount;
+    BigDecimal capitalAmount;
+    Overpayment overpayment;
 
     public BigDecimal getRateAmount() {
         return rateAmount.setScale(2, RoundingMode.HALF_UP);
@@ -26,9 +22,5 @@ public class RateAmounts {
 
     public BigDecimal getCapitalAmount() {
         return capitalAmount.setScale(2, RoundingMode.HALF_UP);
-    }
-
-    public Overpayment getOverpayment() {
-        return overpayment;
     }
 }
