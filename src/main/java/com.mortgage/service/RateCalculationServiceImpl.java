@@ -1,36 +1,20 @@
 package com.mortgage.service;
 
 import com.mortgage.model.*;
+import lombok.RequiredArgsConstructor;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.LinkedList;
 import java.util.List;
 
+@RequiredArgsConstructor
 public class RateCalculationServiceImpl implements RateCalculationService {
-
     private final TimePointService timePointService;
-
     private final AmountsCalculationService amountsCalculationService;
-
     private final OverpaymentCalculateService overpaymentCalculateService;
-
     private final ResidualCalculationService residualCalculationService;
-
     private final ReferenceCalculationService referenceCalculationService;
-
-    public RateCalculationServiceImpl(
-            TimePointService timePointService,
-            AmountsCalculationService amountsCalculationService,
-            OverpaymentCalculateService overpaymentCalculateService,
-            ResidualCalculationService residualCalculationService,
-            ReferenceCalculationServiceImpl referenceCalculationService) {
-        this.timePointService = timePointService;
-        this.amountsCalculationService = amountsCalculationService;
-        this.overpaymentCalculateService = overpaymentCalculateService;
-        this.residualCalculationService = residualCalculationService;
-        this.referenceCalculationService = referenceCalculationService;
-    }
 
     @Override
     public List<Rate> calculate(InputData inputData) {

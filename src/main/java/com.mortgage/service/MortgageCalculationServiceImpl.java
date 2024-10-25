@@ -3,20 +3,16 @@ package com.mortgage.service;
 import com.mortgage.model.InputData;
 import com.mortgage.model.Rate;
 import com.mortgage.model.Summary;
+import lombok.RequiredArgsConstructor;
 
 import java.util.List;
 
+@RequiredArgsConstructor
 public class MortgageCalculationServiceImpl implements MortgageCalculationService {
 
     private final PrintingService printingService;
     private final RateCalculationService rateCalculationService;
     private final SummaryService summaryService;
-
-    public MortgageCalculationServiceImpl(PrintingService printingService, RateCalculationService rateCalculationService, SummaryService summaryService) {
-        this.printingService = printingService;
-        this.rateCalculationService = rateCalculationService;
-        this.summaryService = summaryService;
-    }
 
     @Override
     public void calculate(InputData inputData) {

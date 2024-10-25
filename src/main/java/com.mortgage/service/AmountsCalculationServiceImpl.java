@@ -4,18 +4,12 @@ import com.mortgage.model.InputData;
 import com.mortgage.model.Overpayment;
 import com.mortgage.model.Rate;
 import com.mortgage.model.RateAmounts;
+import lombok.RequiredArgsConstructor;
 
+@RequiredArgsConstructor
 public class AmountsCalculationServiceImpl implements AmountsCalculationService {
     private final ConstantAmountsCalculationService constantAmountsCalculationService;
     private final DecreasingAmountsCalculationService decreasingAmountsCalculationService;
-
-    public AmountsCalculationServiceImpl(
-            ConstantAmountsCalculationService constantAmountsCalculationService,
-            DecreasingAmountsCalculationService decreasingAmountsCalculationService
-    ) {
-        this.constantAmountsCalculationService = constantAmountsCalculationService;
-        this.decreasingAmountsCalculationService = decreasingAmountsCalculationService;
-    }
 
     @Override
     public RateAmounts calculate(InputData inputData, Overpayment overpayment) {

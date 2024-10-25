@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 
 public class Main {
     public static void main(String[] args) {
-        InputData inputData = new InputData()
+        InputData inputData = InputData.defaultInputData()
                 .withAmount(new BigDecimal("298000"))
                 .withMonthsDuration(new BigDecimal(360))
                 .withRateType(RateType.CONSTANT)
