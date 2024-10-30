@@ -1,11 +1,17 @@
 package com.mortgage.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Value;
+import lombok.With;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 @Value
+@With
+@Builder
+@AllArgsConstructor
 public class RateAmounts {
     BigDecimal rateAmount;
     BigDecimal interestAmount;
