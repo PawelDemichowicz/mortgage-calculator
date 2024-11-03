@@ -58,4 +58,11 @@ public class TestData {
                 .referenceDuration(BigDecimal.valueOf(20))
                 .build();
     }
+
+    public static Overpayment someOverpayment() {
+        return Overpayment.builder()
+                .amount(new BigDecimal("10000"))
+                .provisionAmount(new BigDecimal("300"))
+                .build();
+    }
 }
