@@ -11,7 +11,6 @@ import java.math.RoundingMode;
 public class ConstantAmountsCalculationServiceImpl implements ConstantAmountsCalculationService {
     private static final BigDecimal YEAR = BigDecimal.valueOf(12);
 
-
     @Override
     public RateAmounts calculate(InputData inputData, Overpayment overpayment) {
         BigDecimal interestPercent = inputData.getInterestPercent();
