@@ -45,14 +45,14 @@ public class TestData {
                 .build();
     }
 
-    private static MortgageResidual someMortgageResidual() {
+    public static MortgageResidual someMortgageResidual() {
         return MortgageResidual.builder()
                 .amount(new BigDecimal("1233"))
                 .duration(BigDecimal.valueOf(20))
                 .build();
     }
 
-    private static MortgageReference someMortgageReference() {
+    public static MortgageReference someMortgageReference() {
         return MortgageReference.builder()
                 .referenceAmount(new BigDecimal("20222"))
                 .referenceDuration(BigDecimal.valueOf(20))
