@@ -3,6 +3,7 @@ package com.mortgage.service;
 import com.mortgage.model.InputData;
 import com.mortgage.model.Overpayment;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
@@ -12,7 +13,8 @@ class OverpaymentCalculateServiceImplTest {
     private final OverpaymentCalculateService overpaymentCalculateService = new OverpaymentCalculateServiceImpl();
 
     @Test
-    void calculation() {
+    @DisplayName("Calculate single overpayment data")
+    void shouldCalculateSingleOverpayment() {
         // Given
         BigDecimal rateNumber = BigDecimal.valueOf(8);
         InputData inputData = TestData.someInputData()
