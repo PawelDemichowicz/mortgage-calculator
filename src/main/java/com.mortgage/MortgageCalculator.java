@@ -6,6 +6,7 @@ import com.mortgage.model.RateType;
 import com.mortgage.service.*;
 
 import java.math.BigDecimal;
+import java.util.Objects;
 
 public class MortgageCalculator {
     public static void main(String[] args) {
@@ -15,24 +16,32 @@ public class MortgageCalculator {
                 .withMonthsDuration(new BigDecimal(360))
                 .withRateType(RateType.CONSTANT)
                 .withOverpaymentReduceWay(Overpayment.REDUCE_RATE);
-        //Todo: Implement singleton for code below
-        PrintingService printingService = new PrintingServiceImpl();
-        RateCalculationService rateCalculationService = new RateCalculationServiceImpl(
-                new TimePointServiceImpl(),
-                new AmountsCalculationServiceImpl(
-                        new ConstantAmountsCalculationServiceImpl(),
-                        new DecreasingAmountsCalculationServiceImpl()
-                ),
-                new OverpaymentCalculateServiceImpl(),
-                new ResidualCalculationServiceImpl(),
-                new ReferenceCalculationServiceImpl()
-        );
-        MortgageCalculationService mortgageCalculationService = new MortgageCalculationServiceImpl(
-                printingService,
-                rateCalculationService,
-                SummaryServiceFactory.create()
-        );
+        CalculatorCreator.getInstance().calculate(inputData);
+    }
 
-        mortgageCalculationService.calculate(inputData);
+    static class CalculatorCreator {
+        private static MortgageCalculationService instance;
+
+        private CalculatorCreator() {
+        }
+
+        public static MortgageCalculationService getInstance() {
+            if (Objects.isNull(instance)) {
+                instance = new MortgageCalculationServiceImpl(
+                        new PrintingServiceImpl(),
+                        new RateCalculationServiceImpl(
+                                new TimePointServiceImpl(),
+                                new AmountsCalculationServiceImpl(
+                                        new ConstantAmountsCalculationServiceImpl(),
+                                        new DecreasingAmountsCalculationServiceImpl()
+                                ),
+                                new OverpaymentCalculateServiceImpl(),
+                                new ResidualCalculationServiceImpl(),
+                                new ReferenceCalculationServiceImpl()),
+                        SummaryServiceFactory.create()
+                );
+            }
+            return instance;
+        }
     }
 }
