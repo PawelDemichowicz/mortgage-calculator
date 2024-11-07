@@ -7,14 +7,15 @@ import com.mortgage.service.*;
 
 import java.math.BigDecimal;
 
-public class Main {
+public class MortgageCalculator {
     public static void main(String[] args) {
+        //Todo: Provide default input data from the file
         InputData inputData = InputData.defaultInputData()
                 .withAmount(new BigDecimal("298000"))
                 .withMonthsDuration(new BigDecimal(360))
                 .withRateType(RateType.CONSTANT)
                 .withOverpaymentReduceWay(Overpayment.REDUCE_RATE);
-
+        //Todo: Implement singleton for code below
         PrintingService printingService = new PrintingServiceImpl();
         RateCalculationService rateCalculationService = new RateCalculationServiceImpl(
                 new TimePointServiceImpl(),
