@@ -25,26 +25,6 @@ public class InputData {
     BigDecimal overpaymentProvisionPercent;
     BigDecimal overpaymentProvisionMonths;
 
-    public static InputData defaultInputData() {
-        return InputData.builder()
-                .repaymentStartDate(LocalDate.of(2020, 1, 6))
-                .wiborPercent(new BigDecimal("1.73"))
-                .amount(new BigDecimal("300000"))
-                .monthsDuration(BigDecimal.valueOf(180))
-                .rateType(RateType.DECREASING)
-                .bankMarginPercent(new BigDecimal("1.9"))
-                .overpaymentSchema(Map.of(
-                        5, BigDecimal.valueOf(10000),
-                        6, BigDecimal.valueOf(10000),
-                        7, BigDecimal.valueOf(10000),
-                        8, BigDecimal.valueOf(10000))
-                )
-                .overpaymentReduceWay(Overpayment.REDUCE_PERIOD)
-                .overpaymentProvisionPercent(BigDecimal.valueOf(3))
-                .overpaymentProvisionMonths(BigDecimal.valueOf(3))
-                .build();
-    }
-
     public BigDecimal getInterestPercent() {
         return wiborPercent.add(bankMarginPercent).divide(PERCENT, 4, RoundingMode.HALF_UP);
     }
