@@ -5,7 +5,6 @@ import com.mortgage.model.Overpayment;
 import com.mortgage.model.RateType;
 import com.mortgage.service.*;
 
-import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.Objects;
 
@@ -18,13 +17,13 @@ public class MortgageCalculator {
             System.err.println("Error while loading input data, interrupting. Error: " + e.getMessage());
             return;
         }
-//        //Todo: Provide default input data from the file
-//        InputData inputData = InputData.defaultInputData()
-//                .withAmount(new BigDecimal("298000"))
-//                .withMonthsDuration(new BigDecimal(360))
-//                .withRateType(RateType.CONSTANT)
-//                .withOverpaymentReduceWay(Overpayment.REDUCE_RATE);
-//        CalculatorCreator.getInstance().calculate(inputData);
+
+        inputData = inputData.withAmount(new BigDecimal("298000"))
+                .withMonthsDuration(new BigDecimal(360))
+                .withRateType(RateType.CONSTANT)
+                .withOverpaymentReduceWay(Overpayment.REDUCE_RATE);
+
+        CalculatorCreator.getInstance().calculate(inputData);
     }
 
     static class CalculatorCreator {
