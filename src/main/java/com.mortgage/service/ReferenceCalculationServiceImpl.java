@@ -15,14 +15,12 @@ public class ReferenceCalculationServiceImpl implements ReferenceCalculationServ
         if (BigDecimal.ZERO.equals(previousRate.getMortgageResidual().getAmount())) {
             return new MortgageReference(BigDecimal.ZERO, BigDecimal.ZERO);
         }
-        switch (inputData.getOverpaymentReduceWay()) {
-            case Overpayment.REDUCE_PERIOD:
-                return new MortgageReference(inputData.getAmount(), inputData.getMonthsDuration());
-            case Overpayment.REDUCE_RATE:
-                return reduceRateMortgageReference(rateAmounts, previousRate);
-            default:
-                throw new MortgageException();
-        }
+        return switch (inputData.getOverpaymentReduceWay()) {
+            case Overpayment.REDUCE_PERIOD ->
+                    new MortgageReference(inputData.getAmount(), inputData.getMonthsDuration());
+            case Overpayment.REDUCE_RATE -> reduceRateMortgageReference(rateAmounts, previousRate);
+            default -> throw new MortgageException();
+        };
     }
 
     private MortgageReference reduceRateMortgageReference(RateAmounts rateAmounts, Rate previousRate) {
