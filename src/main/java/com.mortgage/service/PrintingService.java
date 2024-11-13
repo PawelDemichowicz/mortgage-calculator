@@ -8,29 +8,51 @@ import java.util.List;
 
 public interface PrintingService {
 
-    String INTEREST_SUM = "SUMA ODSETEK: ";
-    String OVERPAYMENT_PROVISION = "PROWIZJA ZA NADPLATY: ";
-    String LOSTS_SUM = "SUMA STRAT: ";
+    String MORTGAGE_INFORMATION = """
+            KWOTA KREDYTU: %s ZL
+            OKRES KREDYTOWANIA: %s MIESIECY
+            ODSETKI: %s %%
+            """;
+
+    String OVERPAYMENT_INFORMATION = """
+            %s
+            SCHEMAT DOKONYWANIA NADPLAT: %s
+            """;
+
+    String SUMMARY_INFORMATION = """
+            SUMA ODSETEK: %s ZL
+            PROWIZJA ZA NADPLATY: %s ZL
+            SUMA STRAT: %s ZL
+            """;
+
+    String SCHEDULE_TABLE_FORMAT =
+            "%4s %3s  |   " +
+                    "%4s %3s  |   " +
+                    "%3s %2s  |   " +
+                    "%4s %2s  |   " +
+                    "%4s %8s  |   " +
+                    "%7s %8s  |   " +
+                    "%7s %8s  |   " +
+                    "%7s %8s  |   " +
+                    "%7s %8s  |   " +
+                    "%7s %3s ";
+
+    List<String> RATE_LINE_KEYS = List.of(
+            "NR: ",
+            "DATA: ",
+            "ROK: ",
+            "MIESIAC: ",
+            "RATA: ",
+            "ODSETKI:",
+            "KAPITAL:",
+            "NADPLATA:",
+            "KAPITAL: ",
+            "PKWOTA: ",
+            "PMSC: "
+    );
+
     String OVERPAYMENT_REDUCE_RATE = "NADPLATA, ZMNIEJSZENIE RATY";
     String OVERPAYMENT_REDUCE_PERIOD = "NADPLATA, SKROCENIE OKRESU";
-    String OVERPAYMENT_FREQUENCY = "SCHEMAT DOKONYWANIA NADPLAT: ";
-    String RATE_NUMBER = "NR: ";
-    String YEAR = "ROK: ";
-    String MONTH = "MIESIAC: ";
-    String DATE = "DATA: ";
-    String MONTHS = " MIESIECY ";
-    String RATE = "RATA: ";
-    String INTEREST = "ODSETKI: ";
-    String CAPITAL = "KAPITAL: ";
-    String OVERPAYMENT = "NADPLATA: ";
-    String LEFT_AMOUNT = "PKWOTA: ";
-    String LEFT_MONTHS = "PMSC: ";
-    String MORTGAGE_AMOUNT = "KWOTA KREDYTU: ";
-    String MORTGAGE_PERIOD = "OKRES KREDYTOWANIA: ";
-
-    String CURRENCY = " ZL ";
-    String NEW_LINE = "\n";
-    String PERCENT = "% ";
 
     void printInputDataInfo(final InputData inputData);
 
