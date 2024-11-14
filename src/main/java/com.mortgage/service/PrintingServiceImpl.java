@@ -5,12 +5,23 @@ import com.mortgage.model.Overpayment;
 import com.mortgage.model.Rate;
 import com.mortgage.model.Summary;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.List;
 import java.util.Optional;
 
 public class PrintingServiceImpl implements PrintingService {
 
-    private static final String SEPARATOR = createSeparator('-', 200);
+    private static final String SEPARATOR = createSeparator();
+
+    private static final Path RESULT_FILE_PATH = Paths.get("src/main/resources/result.csv");
+
+    public PrintingServiceImpl() {
+        clearFileAtStartup();
+    }
 
     @Override
     public void printInputDataInfo(InputData inputData) {
@@ -70,11 +81,23 @@ public class PrintingServiceImpl implements PrintingService {
         );
     }
 
-    private static String createSeparator(char sign, int length) {
-        return String.valueOf(sign).repeat(Math.max(0, length)) + System.lineSeparator();
+    private static String createSeparator() {
+        return String.valueOf('-').repeat(Math.max(0, 200)) + System.lineSeparator();
     }
 
     private void printMessage(String message) {
-        System.out.println(message);
+        try {
+            Files.writeString(RESULT_FILE_PATH, message, StandardOpenOption.APPEND);
+        } catch (IOException e) {
+            System.err.println("Error writing data to file" + e.getMessage());
+        }
+    }
+
+    private void clearFileAtStartup() {
+        try {
+            Files.writeString(RESULT_FILE_PATH, "", StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.CREATE);
+        } catch (IOException e) {
+            System.err.println("Error clearing file at startup: " + e.getMessage());
+        }
     }
 }
