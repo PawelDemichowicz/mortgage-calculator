@@ -20,9 +20,11 @@ public interface PrintingService {
             """;
 
     String SUMMARY_INFORMATION = """
+            
             SUMA ODSETEK: %s ZL
             PROWIZJA ZA NADPLATY: %s ZL
             SUMA STRAT: %s ZL
+            
             """;
 
     String SCHEDULE_TABLE_FORMAT =
@@ -35,7 +37,7 @@ public interface PrintingService {
                     "%7s %8s  |   " +
                     "%7s %8s  |   " +
                     "%7s %8s  |   " +
-                    "%7s %3s ";
+                    "%7s %3s%n";
 
     List<String> RATE_LINE_KEYS = List.of(
             "NR: ",
