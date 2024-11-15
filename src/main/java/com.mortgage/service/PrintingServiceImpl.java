@@ -5,92 +5,99 @@ import com.mortgage.model.Overpayment;
 import com.mortgage.model.Rate;
 import com.mortgage.model.Summary;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.List;
 import java.util.Optional;
 
 public class PrintingServiceImpl implements PrintingService {
-    @Override
-    public void printInputDataInfo(InputData inputData) {
-        StringBuilder msg = new StringBuilder(NEW_LINE);
-        msg.append(MORTGAGE_AMOUNT).append(inputData.getAmount()).append(CURRENCY);
-        msg.append(NEW_LINE);
-        msg.append(MORTGAGE_PERIOD).append(inputData.getMonthsDuration()).append(MONTHS);
-        msg.append(NEW_LINE);
-        msg.append(INTEREST).append(inputData.getInterestDisplay()).append(PERCENT);
-        msg.append(NEW_LINE);
 
-        Optional.ofNullable(inputData.getOverpaymentSchema())
-                .filter(schema -> !schema.isEmpty())
-                .ifPresent(schema -> logOverpayment(msg, inputData));
+    private static final String SEPARATOR = createSeparator();
 
-        printMessage(msg);
+    private static final Path RESULT_FILE_PATH = Paths.get("src/main/resources/result.csv");
+
+    public PrintingServiceImpl() {
+        clearFileAtStartup();
     }
 
-    private void logOverpayment(StringBuilder msg, InputData inputData) {
-        switch (inputData.getOverpaymentReduceWay()) {
-            case Overpayment.REDUCE_PERIOD:
-                msg.append(OVERPAYMENT_REDUCE_PERIOD);
-                break;
-            case Overpayment.REDUCE_RATE:
-                msg.append(OVERPAYMENT_REDUCE_RATE);
-                break;
-            default:
-                throw new MortgageException();
-        }
+    @Override
+    public void printInputDataInfo(InputData inputData) {
+        String mortgageInformation = MORTGAGE_INFORMATION.formatted(
+                inputData.getAmount(),
+                inputData.getMonthsDuration(),
+                inputData.getInterestDisplay()
+        );
 
-        msg.append(NEW_LINE);
-        msg.append(OVERPAYMENT_FREQUENCY).append(inputData.getOverpaymentSchema());
-        msg.append(NEW_LINE);
+        if (Optional.ofNullable(inputData.getOverpaymentSchema())
+                .map(schema -> !schema.isEmpty())
+                .orElse(false)
+        ) {
+            String overpaymentMessage = OVERPAYMENT_INFORMATION.formatted(
+                    Overpayment.REDUCE_PERIOD.equals(inputData.getOverpaymentReduceWay())
+                            ? OVERPAYMENT_REDUCE_PERIOD
+                            : OVERPAYMENT_REDUCE_RATE,
+                    inputData.getOverpaymentSchema()
+            );
+            mortgageInformation += overpaymentMessage;
+        }
+        printMessage(mortgageInformation);
     }
 
     @Override
     public void printRates(List<Rate> rates) {
-        String format = "%4s %3s  |   " +
-                "%4s %3s  |   " +
-                "%3s %2s  |   " +
-                "%4s %2s  |   " +
-                "%4s %8s  |   " +
-                "%7s %8s  |   " +
-                "%7s %8s  |   " +
-                "%7s %8s  |   " +
-                "%7s %8s  |   " +
-                "%7s %3s ";
-
-        for (Rate rate : rates) {
-            String message = String.format(format,
-                    RATE_NUMBER, rate.getRateNumber(),
-                    DATE, rate.getTimePoint().getDate(),
-                    YEAR, rate.getTimePoint().getYear(),
-                    MONTH, rate.getTimePoint().getMonth(),
-                    RATE, rate.getRateAmounts().getRateAmount(),
-                    INTEREST, rate.getRateAmounts().getInterestAmount(),
-                    CAPITAL, rate.getRateAmounts().getCapitalAmount(),
-                    OVERPAYMENT, rate.getRateAmounts().getOverpayment().getAmount(),
-                    LEFT_AMOUNT, rate.getMortgageResidual().getAmount(),
-                    LEFT_MONTHS, rate.getMortgageResidual().getDuration()
-            );
-            printMessage(new StringBuilder(message));
-
-            if ((rate.getRateNumber().intValue() % 12) == 0) {
-                System.out.println();
+        rates.forEach(rate -> {
+            printMessage(formatRateLine(rate));
+            if (TimePointServiceImpl.YEAR.equals(rate.getTimePoint().getMonth())) {
+                printMessage(SEPARATOR);
             }
-        }
+        });
+        printMessage(System.lineSeparator());
     }
 
     @Override
     public void printSummary(Summary summary) {
-        StringBuilder msg = new StringBuilder(NEW_LINE);
-        msg.append(INTEREST_SUM).append(summary.getInterestSum()).append(CURRENCY);
-        msg.append(NEW_LINE);
-        msg.append(OVERPAYMENT_PROVISION).append(summary.getOverpaymentProvisionSum()).append(CURRENCY);
-        msg.append(NEW_LINE);
-        msg.append(LOSTS_SUM).append(summary.getTotalLost()).append(CURRENCY);
-        msg.append(NEW_LINE);
-
-        printMessage(msg);
+        printMessage(SUMMARY_INFORMATION.formatted(
+                summary.getInterestSum(),
+                summary.getOverpaymentProvisionSum(),
+                summary.getTotalLost()
+        ));
     }
 
-    private void printMessage(StringBuilder sb) {
-        System.out.println(sb);
+    private String formatRateLine(Rate rate) {
+        return String.format(SCHEDULE_TABLE_FORMAT,
+                RATE_LINE_KEYS.get(0), rate.getRateNumber(),
+                RATE_LINE_KEYS.get(1), rate.getTimePoint().getDate(),
+                RATE_LINE_KEYS.get(2), rate.getTimePoint().getYear(),
+                RATE_LINE_KEYS.get(3), rate.getTimePoint().getMonth(),
+                RATE_LINE_KEYS.get(4), rate.getRateAmounts().getRateAmount(),
+                RATE_LINE_KEYS.get(5), rate.getRateAmounts().getInterestAmount(),
+                RATE_LINE_KEYS.get(6), rate.getRateAmounts().getCapitalAmount(),
+                RATE_LINE_KEYS.get(7), rate.getRateAmounts().getOverpayment().getAmount(),
+                RATE_LINE_KEYS.get(8), rate.getMortgageResidual().getAmount(),
+                RATE_LINE_KEYS.get(9), rate.getMortgageResidual().getDuration()
+        );
+    }
+
+    private static String createSeparator() {
+        return String.valueOf('-').repeat(Math.max(0, 200)) + System.lineSeparator();
+    }
+
+    private void printMessage(String message) {
+        try {
+            Files.writeString(RESULT_FILE_PATH, message, StandardOpenOption.APPEND);
+        } catch (IOException e) {
+            System.err.println("Error writing data to file" + e.getMessage());
+        }
+    }
+
+    private void clearFileAtStartup() {
+        try {
+            Files.writeString(RESULT_FILE_PATH, "", StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.CREATE);
+        } catch (IOException e) {
+            System.err.println("Error clearing file at startup: " + e.getMessage());
+        }
     }
 }

@@ -13,26 +13,18 @@ public class AmountsCalculationServiceImpl implements AmountsCalculationService 
 
     @Override
     public RateAmounts calculate(InputData inputData, Overpayment overpayment) {
-        switch (inputData.getRateType()) {
-            case CONSTANT:
-                return constantAmountsCalculationService.calculate(inputData, overpayment);
-            case DECREASING:
-                return decreasingAmountsCalculationService.calculate(inputData, overpayment);
-            default:
-                throw new MortgageException();
-        }
+        return switch (inputData.getRateType()) {
+            case CONSTANT -> constantAmountsCalculationService.calculate(inputData, overpayment);
+            case DECREASING -> decreasingAmountsCalculationService.calculate(inputData, overpayment);
+        };
     }
 
     @Override
     public RateAmounts calculate(InputData inputData, Overpayment overpayment, Rate previousRate) {
-        switch (inputData.getRateType()) {
-            case CONSTANT:
-                return constantAmountsCalculationService.calculate(inputData, overpayment, previousRate);
-            case DECREASING:
-                return decreasingAmountsCalculationService.calculate(inputData, overpayment, previousRate);
-            default:
-                throw new MortgageException();
-        }
+        return switch (inputData.getRateType()) {
+            case CONSTANT -> constantAmountsCalculationService.calculate(inputData, overpayment, previousRate);
+            case DECREASING -> decreasingAmountsCalculationService.calculate(inputData, overpayment, previousRate);
+        };
     }
 
 
