@@ -2,11 +2,13 @@ package com.mortgage.service;
 
 import com.mortgage.model.InputData;
 import com.mortgage.model.TimePoint;
+import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.time.LocalDate;
 
+@Service
 public class TimePointServiceImpl implements TimePointService {
     public static final BigDecimal YEAR = BigDecimal.valueOf(12);
 

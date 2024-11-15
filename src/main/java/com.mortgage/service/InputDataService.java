@@ -2,6 +2,7 @@ package com.mortgage.service;
 
 import com.mortgage.model.InputData;
 import com.mortgage.model.RateType;
+import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -16,6 +17,7 @@ import java.util.TreeMap;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+@Service
 public class InputDataService {
 
     private static final Path INPUT_DATA_FILE_LOCATION = Paths.get("src/main/resources/inputData.csv");

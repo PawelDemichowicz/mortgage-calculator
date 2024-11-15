@@ -2,12 +2,14 @@ package com.mortgage.service;
 
 import com.mortgage.model.*;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.LinkedList;
 import java.util.List;
 
+@Service
 @RequiredArgsConstructor
 public class RateCalculationServiceImpl implements RateCalculationService {
     private final TimePointService timePointService;

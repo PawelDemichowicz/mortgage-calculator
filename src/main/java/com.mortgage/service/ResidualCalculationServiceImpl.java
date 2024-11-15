@@ -4,9 +4,11 @@ import com.mortgage.model.InputData;
 import com.mortgage.model.MortgageResidual;
 import com.mortgage.model.Rate;
 import com.mortgage.model.RateAmounts;
+import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 
+@Service
 public class ResidualCalculationServiceImpl implements ResidualCalculationService {
     @Override
     public MortgageResidual calculate(RateAmounts rateAmounts, InputData inputData) {
