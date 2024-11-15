@@ -2,11 +2,13 @@ package com.mortgage.service;
 
 import com.mortgage.model.InputData;
 import com.mortgage.model.Overpayment;
+import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.util.Map;
 import java.util.Optional;
 
+@Service
 public class OverpaymentCalculateServiceImpl implements OverpaymentCalculateService {
     @Override
     public Overpayment calculation(BigDecimal rateNumber, InputData inputData) {

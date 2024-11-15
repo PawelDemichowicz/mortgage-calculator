@@ -5,7 +5,9 @@ import com.mortgage.model.Overpayment;
 import com.mortgage.model.Rate;
 import com.mortgage.model.RateAmounts;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
+@Service
 @RequiredArgsConstructor
 public class AmountsCalculationServiceImpl implements AmountsCalculationService {
     private final ConstantAmountsCalculationService constantAmountsCalculationService;

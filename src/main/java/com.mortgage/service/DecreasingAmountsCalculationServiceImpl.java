@@ -4,10 +4,12 @@ import com.mortgage.model.InputData;
 import com.mortgage.model.Overpayment;
 import com.mortgage.model.Rate;
 import com.mortgage.model.RateAmounts;
+import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+@Service
 public class DecreasingAmountsCalculationServiceImpl implements DecreasingAmountsCalculationService {
     private static final BigDecimal YEAR = BigDecimal.valueOf(12);
 

@@ -4,6 +4,7 @@ import com.mortgage.model.InputData;
 import com.mortgage.model.Overpayment;
 import com.mortgage.model.Rate;
 import com.mortgage.model.Summary;
+import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -13,6 +14,7 @@ import java.nio.file.StandardOpenOption;
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class PrintingServiceImpl implements PrintingService {
 
     private static final String SEPARATOR = createSeparator();

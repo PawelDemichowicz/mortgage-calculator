@@ -2,11 +2,16 @@ package com.mortgage.service;
 
 import com.mortgage.model.Rate;
 import com.mortgage.model.Summary;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.util.List;
 
+@Service
 public class SummaryServiceFactory {
+
+    @Bean
     public static SummaryService create() {
         return rates -> {
             BigDecimal interestSum = calculate(

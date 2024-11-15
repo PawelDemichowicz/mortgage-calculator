@@ -1,16 +1,21 @@
 package com.mortgage;
 
+import com.mortgage.configuration.ApplicationConfiguration;
 import com.mortgage.model.InputData;
 import com.mortgage.model.Overpayment;
 import com.mortgage.model.RateType;
-import com.mortgage.service.*;
+import com.mortgage.service.InputDataService;
+import com.mortgage.service.MortgageCalculationService;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.math.BigDecimal;
-import java.util.Objects;
 
 public class MortgageCalculator {
     public static void main(String[] args) {
+        ApplicationContext context = new AnnotationConfigApplicationContext(ApplicationConfiguration.class);
         InputData inputData;
+
         try {
             inputData = new InputDataService().read();
         } catch (Exception e) {
@@ -23,32 +28,7 @@ public class MortgageCalculator {
                 .withRateType(RateType.CONSTANT)
                 .withOverpaymentReduceWay(Overpayment.REDUCE_RATE);
 
-        CalculatorCreator.getInstance().calculate(inputData);
-    }
-
-    static class CalculatorCreator {
-        private static MortgageCalculationService instance;
-
-        private CalculatorCreator() {
-        }
-
-        public static MortgageCalculationService getInstance() {
-            if (Objects.isNull(instance)) {
-                instance = new MortgageCalculationServiceImpl(
-                        new PrintingServiceImpl(),
-                        new RateCalculationServiceImpl(
-                                new TimePointServiceImpl(),
-                                new AmountsCalculationServiceImpl(
-                                        new ConstantAmountsCalculationServiceImpl(),
-                                        new DecreasingAmountsCalculationServiceImpl()
-                                ),
-                                new OverpaymentCalculateServiceImpl(),
-                                new ResidualCalculationServiceImpl(),
-                                new ReferenceCalculationServiceImpl()),
-                        SummaryServiceFactory.create()
-                );
-            }
-            return instance;
-        }
+        MortgageCalculationService mortgageCalculationService = context.getBean(MortgageCalculationService.class);
+        mortgageCalculationService.calculate(inputData);
     }
 }

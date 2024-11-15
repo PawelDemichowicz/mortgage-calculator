@@ -4,9 +4,11 @@ import com.mortgage.model.InputData;
 import com.mortgage.model.Rate;
 import com.mortgage.model.Summary;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 @RequiredArgsConstructor
 public class MortgageCalculationServiceImpl implements MortgageCalculationService {
 
