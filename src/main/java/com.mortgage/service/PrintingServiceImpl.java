@@ -19,7 +19,7 @@ public class PrintingServiceImpl implements PrintingService {
 
     private static final String SEPARATOR = createSeparator();
 
-    private static final Path RESULT_FILE_PATH = Paths.get("src/main/resources/result.csv");
+    private static final Path RESULT_FILE_PATH = Paths.get("src/main/result.csv");
 
     public PrintingServiceImpl() {
         clearFileAtStartup();

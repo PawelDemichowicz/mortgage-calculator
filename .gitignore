@@ -34,3 +34,6 @@ bin/
 build/
 .gradle/
 !gradle/wrapper/gradle-wrapper.jar
+
+### Resources ###
+/src/main/result.csv
