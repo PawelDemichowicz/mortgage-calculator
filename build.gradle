@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'jacoco'
 }
 
 group = 'com.mortgage'
@@ -13,6 +14,7 @@ ext {
     springVersion = '6.2.0'
     lombokVersion = '1.18.34'
     junitVersion = '5.8.2'
+    mockitoVersion = '5.14.2'
 }
 
 java {
@@ -36,11 +38,20 @@ dependencies {
 
     testImplementation "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
     testImplementation "org.junit.jupiter:junit-jupiter-params:$junitVersion"
+    testImplementation "org.mockito:mockito-junit-jupiter:$mockitoVersion"
+    testImplementation "org.mockito:mockito-core:$mockitoVersion"
+
+    testImplementation "org.springframework:spring-test:$springVersion"
 }
 
 test {
     useJUnitPlatform()
     testLogging {
-        events "skipped", "failed"
+        events "passed", "skipped", "failed"
     }
+    finalizedBy jacocoTestReport
+}
+
+jacocoTestReport {
+    dependsOn test
 }
