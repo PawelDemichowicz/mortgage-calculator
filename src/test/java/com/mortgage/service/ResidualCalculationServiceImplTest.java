@@ -1,5 +1,6 @@
 package com.mortgage.service;
 
+import com.mortgage.fixtures.TestData;
 import com.mortgage.model.InputData;
 import com.mortgage.model.MortgageResidual;
 import com.mortgage.model.Rate;
