@@ -1,0 +1,401 @@
+KWOTA KREDYTU: 298000 ZL
+OKRES KREDYTOWANIA: 360 MIESIECY
+ODSETKI: 8.43 %
+NADPLATA, ZMNIEJSZENIE RATY
+SCHEMAT DOKONYWANIA NADPLAT: {15=10000, 20=10000, 25=10000, 30=10000, 35=10000}
+
+SUMA ODSETEK: 441427.80 ZL
+PROWIZJA ZA NADPLATY: 5000.00 ZL
+SUMA STRAT: 446427.80 ZL
+
+NR:    1  |   DATA:  2020-01-01  |   ROK:   1  |   MIESIAC:   1  |   RATA:   2276.59  |   ODSETKI:  2093.45  |   KAPITAL:   183.14  |   NADPLATA:     0.00  |   KAPITAL:  297816.86  |   PKWOTA:  359
+NR:    2  |   DATA:  2020-02-01  |   ROK:   1  |   MIESIAC:   2  |   RATA:   2276.59  |   ODSETKI:  2092.16  |   KAPITAL:   184.43  |   NADPLATA:     0.00  |   KAPITAL:  297632.43  |   PKWOTA:  358
+NR:    3  |   DATA:  2020-03-01  |   ROK:   1  |   MIESIAC:   3  |   RATA:   2276.59  |   ODSETKI:  2090.87  |   KAPITAL:   185.73  |   NADPLATA:     0.00  |   KAPITAL:  297446.70  |   PKWOTA:  357
+NR:    4  |   DATA:  2020-04-01  |   ROK:   1  |   MIESIAC:   4  |   RATA:   2276.59  |   ODSETKI:  2089.56  |   KAPITAL:   187.03  |   NADPLATA:     0.00  |   KAPITAL:  297259.67  |   PKWOTA:  356
+NR:    5  |   DATA:  2020-05-01  |   ROK:   1  |   MIESIAC:   5  |   RATA:   2276.59  |   ODSETKI:  2088.25  |   KAPITAL:   188.35  |   NADPLATA:     0.00  |   KAPITAL:  297071.32  |   PKWOTA:  355
+NR:    6  |   DATA:  2020-06-01  |   ROK:   1  |   MIESIAC:   6  |   RATA:   2276.59  |   ODSETKI:  2086.93  |   KAPITAL:   189.67  |   NADPLATA:     0.00  |   KAPITAL:  296881.65  |   PKWOTA:  354
+NR:    7  |   DATA:  2020-07-01  |   ROK:   1  |   MIESIAC:   7  |   RATA:   2276.59  |   ODSETKI:  2085.59  |   KAPITAL:   191.00  |   NADPLATA:     0.00  |   KAPITAL:  296690.65  |   PKWOTA:  353
+NR:    8  |   DATA:  2020-08-01  |   ROK:   1  |   MIESIAC:   8  |   RATA:   2276.59  |   ODSETKI:  2084.25  |   KAPITAL:   192.34  |   NADPLATA:     0.00  |   KAPITAL:  296498.31  |   PKWOTA:  352
+NR:    9  |   DATA:  2020-09-01  |   ROK:   1  |   MIESIAC:   9  |   RATA:   2276.59  |   ODSETKI:  2082.90  |   KAPITAL:   193.69  |   NADPLATA:     0.00  |   KAPITAL:  296304.62  |   PKWOTA:  351
+NR:   10  |   DATA:  2020-10-01  |   ROK:   1  |   MIESIAC:  10  |   RATA:   2276.59  |   ODSETKI:  2081.54  |   KAPITAL:   195.05  |   NADPLATA:     0.00  |   KAPITAL:  296109.57  |   PKWOTA:  350
+NR:   11  |   DATA:  2020-11-01  |   ROK:   1  |   MIESIAC:  11  |   RATA:   2276.59  |   ODSETKI:  2080.17  |   KAPITAL:   196.43  |   NADPLATA:     0.00  |   KAPITAL:  295913.14  |   PKWOTA:  349
+NR:   12  |   DATA:  2020-12-01  |   ROK:   1  |   MIESIAC:  12  |   RATA:   2276.59  |   ODSETKI:  2078.79  |   KAPITAL:   197.81  |   NADPLATA:     0.00  |   KAPITAL:  295715.33  |   PKWOTA:  348
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:   13  |   DATA:  2021-01-01  |   ROK:   2  |   MIESIAC:   1  |   RATA:   2276.59  |   ODSETKI:  2077.40  |   KAPITAL:   199.19  |   NADPLATA:     0.00  |   KAPITAL:  295516.14  |   PKWOTA:  347
+NR:   14  |   DATA:  2021-02-01  |   ROK:   2  |   MIESIAC:   2  |   RATA:   2276.59  |   ODSETKI:  2076.00  |   KAPITAL:   200.59  |   NADPLATA:     0.00  |   KAPITAL:  295315.55  |   PKWOTA:  346
+NR:   15  |   DATA:  2021-03-01  |   ROK:   2  |   MIESIAC:   3  |   RATA:   2276.59  |   ODSETKI:  2074.59  |   KAPITAL:   202.00  |   NADPLATA: 10000.00  |   KAPITAL:  285113.55  |   PKWOTA:  345
+NR:   16  |   DATA:  2021-04-01  |   ROK:   2  |   MIESIAC:   4  |   RATA:   2199.45  |   ODSETKI:  2002.92  |   KAPITAL:   196.53  |   NADPLATA:     0.00  |   KAPITAL:  284917.02  |   PKWOTA:  344
+NR:   17  |   DATA:  2021-05-01  |   ROK:   2  |   MIESIAC:   5  |   RATA:   2199.45  |   ODSETKI:  2001.54  |   KAPITAL:   197.91  |   NADPLATA:     0.00  |   KAPITAL:  284719.11  |   PKWOTA:  343
+NR:   18  |   DATA:  2021-06-01  |   ROK:   2  |   MIESIAC:   6  |   RATA:   2199.45  |   ODSETKI:  2000.15  |   KAPITAL:   199.30  |   NADPLATA:     0.00  |   KAPITAL:  284519.81  |   PKWOTA:  342
+NR:   19  |   DATA:  2021-07-01  |   ROK:   2  |   MIESIAC:   7  |   RATA:   2199.45  |   ODSETKI:  1998.75  |   KAPITAL:   200.70  |   NADPLATA:     0.00  |   KAPITAL:  284319.11  |   PKWOTA:  341
+NR:   20  |   DATA:  2021-08-01  |   ROK:   2  |   MIESIAC:   8  |   RATA:   2199.45  |   ODSETKI:  1997.34  |   KAPITAL:   202.11  |   NADPLATA: 10000.00  |   KAPITAL:  274117.00  |   PKWOTA:  340
+NR:   21  |   DATA:  2021-09-01  |   ROK:   2  |   MIESIAC:   9  |   RATA:   2122.04  |   ODSETKI:  1925.67  |   KAPITAL:   196.37  |   NADPLATA:     0.00  |   KAPITAL:  273920.63  |   PKWOTA:  339
+NR:   22  |   DATA:  2021-10-01  |   ROK:   2  |   MIESIAC:  10  |   RATA:   2122.04  |   ODSETKI:  1924.29  |   KAPITAL:   197.75  |   NADPLATA:     0.00  |   KAPITAL:  273722.88  |   PKWOTA:  338
+NR:   23  |   DATA:  2021-11-01  |   ROK:   2  |   MIESIAC:  11  |   RATA:   2122.04  |   ODSETKI:  1922.90  |   KAPITAL:   199.14  |   NADPLATA:     0.00  |   KAPITAL:  273523.74  |   PKWOTA:  337
+NR:   24  |   DATA:  2021-12-01  |   ROK:   2  |   MIESIAC:  12  |   RATA:   2122.04  |   ODSETKI:  1921.50  |   KAPITAL:   200.53  |   NADPLATA:     0.00  |   KAPITAL:  273323.21  |   PKWOTA:  336
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:   25  |   DATA:  2022-01-01  |   ROK:   3  |   MIESIAC:   1  |   RATA:   2122.04  |   ODSETKI:  1920.10  |   KAPITAL:   201.94  |   NADPLATA: 10000.00  |   KAPITAL:  263121.27  |   PKWOTA:  335
+NR:   26  |   DATA:  2022-02-01  |   ROK:   3  |   MIESIAC:   2  |   RATA:   2044.34  |   ODSETKI:  1848.43  |   KAPITAL:   195.92  |   NADPLATA:     0.00  |   KAPITAL:  262925.35  |   PKWOTA:  334
+NR:   27  |   DATA:  2022-03-01  |   ROK:   3  |   MIESIAC:   3  |   RATA:   2044.34  |   ODSETKI:  1847.05  |   KAPITAL:   197.29  |   NADPLATA:     0.00  |   KAPITAL:  262728.06  |   PKWOTA:  333
+NR:   28  |   DATA:  2022-04-01  |   ROK:   3  |   MIESIAC:   4  |   RATA:   2044.34  |   ODSETKI:  1845.66  |   KAPITAL:   198.68  |   NADPLATA:     0.00  |   KAPITAL:  262529.38  |   PKWOTA:  332
+NR:   29  |   DATA:  2022-05-01  |   ROK:   3  |   MIESIAC:   5  |   RATA:   2044.34  |   ODSETKI:  1844.27  |   KAPITAL:   200.07  |   NADPLATA:     0.00  |   KAPITAL:  262329.31  |   PKWOTA:  331
+NR:   30  |   DATA:  2022-06-01  |   ROK:   3  |   MIESIAC:   6  |   RATA:   2044.34  |   ODSETKI:  1842.86  |   KAPITAL:   201.48  |   NADPLATA: 10000.00  |   KAPITAL:  252127.83  |   PKWOTA:  330
+NR:   31  |   DATA:  2022-07-01  |   ROK:   3  |   MIESIAC:   7  |   RATA:   1966.35  |   ODSETKI:  1771.20  |   KAPITAL:   195.15  |   NADPLATA:     0.00  |   KAPITAL:  251932.68  |   PKWOTA:  329
+NR:   32  |   DATA:  2022-08-01  |   ROK:   3  |   MIESIAC:   8  |   RATA:   1966.35  |   ODSETKI:  1769.83  |   KAPITAL:   196.53  |   NADPLATA:     0.00  |   KAPITAL:  251736.15  |   PKWOTA:  328
+NR:   33  |   DATA:  2022-09-01  |   ROK:   3  |   MIESIAC:   9  |   RATA:   1966.35  |   ODSETKI:  1768.45  |   KAPITAL:   197.91  |   NADPLATA:     0.00  |   KAPITAL:  251538.24  |   PKWOTA:  327
+NR:   34  |   DATA:  2022-10-01  |   ROK:   3  |   MIESIAC:  10  |   RATA:   1966.35  |   ODSETKI:  1767.06  |   KAPITAL:   199.30  |   NADPLATA:     0.00  |   KAPITAL:  251338.94  |   PKWOTA:  326
+NR:   35  |   DATA:  2022-11-01  |   ROK:   3  |   MIESIAC:  11  |   RATA:   1966.35  |   ODSETKI:  1765.66  |   KAPITAL:   200.70  |   NADPLATA: 10000.00  |   KAPITAL:  241138.24  |   PKWOTA:  325
+NR:   36  |   DATA:  2022-12-01  |   ROK:   3  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:  1694.00  |   KAPITAL:   194.06  |   NADPLATA:     0.00  |   KAPITAL:  240944.18  |   PKWOTA:  324
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:   37  |   DATA:  2023-01-01  |   ROK:   4  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:  1692.63  |   KAPITAL:   195.42  |   NADPLATA:     0.00  |   KAPITAL:  240748.76  |   PKWOTA:  323
+NR:   38  |   DATA:  2023-02-01  |   ROK:   4  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:  1691.26  |   KAPITAL:   196.79  |   NADPLATA:     0.00  |   KAPITAL:  240551.97  |   PKWOTA:  322
+NR:   39  |   DATA:  2023-03-01  |   ROK:   4  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:  1689.88  |   KAPITAL:   198.18  |   NADPLATA:     0.00  |   KAPITAL:  240353.79  |   PKWOTA:  321
+NR:   40  |   DATA:  2023-04-01  |   ROK:   4  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:  1688.49  |   KAPITAL:   199.57  |   NADPLATA:     0.00  |   KAPITAL:  240154.22  |   PKWOTA:  320
+NR:   41  |   DATA:  2023-05-01  |   ROK:   4  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:  1687.08  |   KAPITAL:   200.97  |   NADPLATA:     0.00  |   KAPITAL:  239953.25  |   PKWOTA:  319
+NR:   42  |   DATA:  2023-06-01  |   ROK:   4  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:  1685.67  |   KAPITAL:   202.38  |   NADPLATA:     0.00  |   KAPITAL:  239750.87  |   PKWOTA:  318
+NR:   43  |   DATA:  2023-07-01  |   ROK:   4  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:  1684.25  |   KAPITAL:   203.80  |   NADPLATA:     0.00  |   KAPITAL:  239547.07  |   PKWOTA:  317
+NR:   44  |   DATA:  2023-08-01  |   ROK:   4  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:  1682.82  |   KAPITAL:   205.24  |   NADPLATA:     0.00  |   KAPITAL:  239341.83  |   PKWOTA:  316
+NR:   45  |   DATA:  2023-09-01  |   ROK:   4  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:  1681.38  |   KAPITAL:   206.68  |   NADPLATA:     0.00  |   KAPITAL:  239135.15  |   PKWOTA:  315
+NR:   46  |   DATA:  2023-10-01  |   ROK:   4  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:  1679.92  |   KAPITAL:   208.13  |   NADPLATA:     0.00  |   KAPITAL:  238927.02  |   PKWOTA:  314
+NR:   47  |   DATA:  2023-11-01  |   ROK:   4  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:  1678.46  |   KAPITAL:   209.59  |   NADPLATA:     0.00  |   KAPITAL:  238717.43  |   PKWOTA:  313
+NR:   48  |   DATA:  2023-12-01  |   ROK:   4  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:  1676.99  |   KAPITAL:   211.06  |   NADPLATA:     0.00  |   KAPITAL:  238506.37  |   PKWOTA:  312
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:   49  |   DATA:  2024-01-01  |   ROK:   5  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:  1675.51  |   KAPITAL:   212.55  |   NADPLATA:     0.00  |   KAPITAL:  238293.82  |   PKWOTA:  311
+NR:   50  |   DATA:  2024-02-01  |   ROK:   5  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:  1674.01  |   KAPITAL:   214.04  |   NADPLATA:     0.00  |   KAPITAL:  238079.78  |   PKWOTA:  310
+NR:   51  |   DATA:  2024-03-01  |   ROK:   5  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:  1672.51  |   KAPITAL:   215.54  |   NADPLATA:     0.00  |   KAPITAL:  237864.24  |   PKWOTA:  309
+NR:   52  |   DATA:  2024-04-01  |   ROK:   5  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:  1671.00  |   KAPITAL:   217.06  |   NADPLATA:     0.00  |   KAPITAL:  237647.18  |   PKWOTA:  308
+NR:   53  |   DATA:  2024-05-01  |   ROK:   5  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:  1669.47  |   KAPITAL:   218.58  |   NADPLATA:     0.00  |   KAPITAL:  237428.60  |   PKWOTA:  307
+NR:   54  |   DATA:  2024-06-01  |   ROK:   5  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:  1667.94  |   KAPITAL:   220.12  |   NADPLATA:     0.00  |   KAPITAL:  237208.48  |   PKWOTA:  306
+NR:   55  |   DATA:  2024-07-01  |   ROK:   5  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:  1666.39  |   KAPITAL:   221.67  |   NADPLATA:     0.00  |   KAPITAL:  236986.81  |   PKWOTA:  305
+NR:   56  |   DATA:  2024-08-01  |   ROK:   5  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:  1664.83  |   KAPITAL:   223.22  |   NADPLATA:     0.00  |   KAPITAL:  236763.59  |   PKWOTA:  304
+NR:   57  |   DATA:  2024-09-01  |   ROK:   5  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:  1663.26  |   KAPITAL:   224.79  |   NADPLATA:     0.00  |   KAPITAL:  236538.80  |   PKWOTA:  303
+NR:   58  |   DATA:  2024-10-01  |   ROK:   5  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:  1661.69  |   KAPITAL:   226.37  |   NADPLATA:     0.00  |   KAPITAL:  236312.43  |   PKWOTA:  302
+NR:   59  |   DATA:  2024-11-01  |   ROK:   5  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:  1660.09  |   KAPITAL:   227.96  |   NADPLATA:     0.00  |   KAPITAL:  236084.47  |   PKWOTA:  301
+NR:   60  |   DATA:  2024-12-01  |   ROK:   5  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:  1658.49  |   KAPITAL:   229.56  |   NADPLATA:     0.00  |   KAPITAL:  235854.91  |   PKWOTA:  300
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:   61  |   DATA:  2025-01-01  |   ROK:   6  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:  1656.88  |   KAPITAL:   231.17  |   NADPLATA:     0.00  |   KAPITAL:  235623.74  |   PKWOTA:  299
+NR:   62  |   DATA:  2025-02-01  |   ROK:   6  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:  1655.26  |   KAPITAL:   232.80  |   NADPLATA:     0.00  |   KAPITAL:  235390.94  |   PKWOTA:  298
+NR:   63  |   DATA:  2025-03-01  |   ROK:   6  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:  1653.62  |   KAPITAL:   234.43  |   NADPLATA:     0.00  |   KAPITAL:  235156.51  |   PKWOTA:  297
+NR:   64  |   DATA:  2025-04-01  |   ROK:   6  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:  1651.97  |   KAPITAL:   236.08  |   NADPLATA:     0.00  |   KAPITAL:  234920.43  |   PKWOTA:  296
+NR:   65  |   DATA:  2025-05-01  |   ROK:   6  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:  1650.32  |   KAPITAL:   237.74  |   NADPLATA:     0.00  |   KAPITAL:  234682.69  |   PKWOTA:  295
+NR:   66  |   DATA:  2025-06-01  |   ROK:   6  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:  1648.65  |   KAPITAL:   239.41  |   NADPLATA:     0.00  |   KAPITAL:  234443.28  |   PKWOTA:  294
+NR:   67  |   DATA:  2025-07-01  |   ROK:   6  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:  1646.96  |   KAPITAL:   241.09  |   NADPLATA:     0.00  |   KAPITAL:  234202.19  |   PKWOTA:  293
+NR:   68  |   DATA:  2025-08-01  |   ROK:   6  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:  1645.27  |   KAPITAL:   242.78  |   NADPLATA:     0.00  |   KAPITAL:  233959.41  |   PKWOTA:  292
+NR:   69  |   DATA:  2025-09-01  |   ROK:   6  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:  1643.56  |   KAPITAL:   244.49  |   NADPLATA:     0.00  |   KAPITAL:  233714.92  |   PKWOTA:  291
+NR:   70  |   DATA:  2025-10-01  |   ROK:   6  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:  1641.85  |   KAPITAL:   246.21  |   NADPLATA:     0.00  |   KAPITAL:  233468.71  |   PKWOTA:  290
+NR:   71  |   DATA:  2025-11-01  |   ROK:   6  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:  1640.12  |   KAPITAL:   247.94  |   NADPLATA:     0.00  |   KAPITAL:  233220.77  |   PKWOTA:  289
+NR:   72  |   DATA:  2025-12-01  |   ROK:   6  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:  1638.38  |   KAPITAL:   249.68  |   NADPLATA:     0.00  |   KAPITAL:  232971.09  |   PKWOTA:  288
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:   73  |   DATA:  2026-01-01  |   ROK:   7  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:  1636.62  |   KAPITAL:   251.43  |   NADPLATA:     0.00  |   KAPITAL:  232719.66  |   PKWOTA:  287
+NR:   74  |   DATA:  2026-02-01  |   ROK:   7  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:  1634.86  |   KAPITAL:   253.20  |   NADPLATA:     0.00  |   KAPITAL:  232466.46  |   PKWOTA:  286
+NR:   75  |   DATA:  2026-03-01  |   ROK:   7  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:  1633.08  |   KAPITAL:   254.98  |   NADPLATA:     0.00  |   KAPITAL:  232211.48  |   PKWOTA:  285
+NR:   76  |   DATA:  2026-04-01  |   ROK:   7  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:  1631.29  |   KAPITAL:   256.77  |   NADPLATA:     0.00  |   KAPITAL:  231954.71  |   PKWOTA:  284
+NR:   77  |   DATA:  2026-05-01  |   ROK:   7  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:  1629.48  |   KAPITAL:   258.57  |   NADPLATA:     0.00  |   KAPITAL:  231696.14  |   PKWOTA:  283
+NR:   78  |   DATA:  2026-06-01  |   ROK:   7  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:  1627.67  |   KAPITAL:   260.39  |   NADPLATA:     0.00  |   KAPITAL:  231435.75  |   PKWOTA:  282
+NR:   79  |   DATA:  2026-07-01  |   ROK:   7  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:  1625.84  |   KAPITAL:   262.22  |   NADPLATA:     0.00  |   KAPITAL:  231173.53  |   PKWOTA:  281
+NR:   80  |   DATA:  2026-08-01  |   ROK:   7  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:  1623.99  |   KAPITAL:   264.06  |   NADPLATA:     0.00  |   KAPITAL:  230909.47  |   PKWOTA:  280
+NR:   81  |   DATA:  2026-09-01  |   ROK:   7  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:  1622.14  |   KAPITAL:   265.92  |   NADPLATA:     0.00  |   KAPITAL:  230643.55  |   PKWOTA:  279
+NR:   82  |   DATA:  2026-10-01  |   ROK:   7  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:  1620.27  |   KAPITAL:   267.78  |   NADPLATA:     0.00  |   KAPITAL:  230375.77  |   PKWOTA:  278
+NR:   83  |   DATA:  2026-11-01  |   ROK:   7  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:  1618.39  |   KAPITAL:   269.66  |   NADPLATA:     0.00  |   KAPITAL:  230106.11  |   PKWOTA:  277
+NR:   84  |   DATA:  2026-12-01  |   ROK:   7  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:  1616.50  |   KAPITAL:   271.56  |   NADPLATA:     0.00  |   KAPITAL:  229834.55  |   PKWOTA:  276
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:   85  |   DATA:  2027-01-01  |   ROK:   8  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:  1614.59  |   KAPITAL:   273.47  |   NADPLATA:     0.00  |   KAPITAL:  229561.08  |   PKWOTA:  275
+NR:   86  |   DATA:  2027-02-01  |   ROK:   8  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:  1612.67  |   KAPITAL:   275.39  |   NADPLATA:     0.00  |   KAPITAL:  229285.69  |   PKWOTA:  274
+NR:   87  |   DATA:  2027-03-01  |   ROK:   8  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:  1610.73  |   KAPITAL:   277.32  |   NADPLATA:     0.00  |   KAPITAL:  229008.37  |   PKWOTA:  273
+NR:   88  |   DATA:  2027-04-01  |   ROK:   8  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:  1608.78  |   KAPITAL:   279.27  |   NADPLATA:     0.00  |   KAPITAL:  228729.10  |   PKWOTA:  272
+NR:   89  |   DATA:  2027-05-01  |   ROK:   8  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:  1606.82  |   KAPITAL:   281.23  |   NADPLATA:     0.00  |   KAPITAL:  228447.87  |   PKWOTA:  271
+NR:   90  |   DATA:  2027-06-01  |   ROK:   8  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:  1604.85  |   KAPITAL:   283.21  |   NADPLATA:     0.00  |   KAPITAL:  228164.66  |   PKWOTA:  270
+NR:   91  |   DATA:  2027-07-01  |   ROK:   8  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:  1602.86  |   KAPITAL:   285.20  |   NADPLATA:     0.00  |   KAPITAL:  227879.46  |   PKWOTA:  269
+NR:   92  |   DATA:  2027-08-01  |   ROK:   8  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:  1600.85  |   KAPITAL:   287.20  |   NADPLATA:     0.00  |   KAPITAL:  227592.26  |   PKWOTA:  268
+NR:   93  |   DATA:  2027-09-01  |   ROK:   8  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:  1598.84  |   KAPITAL:   289.22  |   NADPLATA:     0.00  |   KAPITAL:  227303.04  |   PKWOTA:  267
+NR:   94  |   DATA:  2027-10-01  |   ROK:   8  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:  1596.80  |   KAPITAL:   291.25  |   NADPLATA:     0.00  |   KAPITAL:  227011.79  |   PKWOTA:  266
+NR:   95  |   DATA:  2027-11-01  |   ROK:   8  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:  1594.76  |   KAPITAL:   293.30  |   NADPLATA:     0.00  |   KAPITAL:  226718.49  |   PKWOTA:  265
+NR:   96  |   DATA:  2027-12-01  |   ROK:   8  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:  1592.70  |   KAPITAL:   295.36  |   NADPLATA:     0.00  |   KAPITAL:  226423.13  |   PKWOTA:  264
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:   97  |   DATA:  2028-01-01  |   ROK:   9  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:  1590.62  |   KAPITAL:   297.43  |   NADPLATA:     0.00  |   KAPITAL:  226125.70  |   PKWOTA:  263
+NR:   98  |   DATA:  2028-02-01  |   ROK:   9  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:  1588.53  |   KAPITAL:   299.52  |   NADPLATA:     0.00  |   KAPITAL:  225826.18  |   PKWOTA:  262
+NR:   99  |   DATA:  2028-03-01  |   ROK:   9  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:  1586.43  |   KAPITAL:   301.63  |   NADPLATA:     0.00  |   KAPITAL:  225524.55  |   PKWOTA:  261
+NR:  100  |   DATA:  2028-04-01  |   ROK:   9  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:  1584.31  |   KAPITAL:   303.74  |   NADPLATA:     0.00  |   KAPITAL:  225220.81  |   PKWOTA:  260
+NR:  101  |   DATA:  2028-05-01  |   ROK:   9  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:  1582.18  |   KAPITAL:   305.88  |   NADPLATA:     0.00  |   KAPITAL:  224914.93  |   PKWOTA:  259
+NR:  102  |   DATA:  2028-06-01  |   ROK:   9  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:  1580.03  |   KAPITAL:   308.03  |   NADPLATA:     0.00  |   KAPITAL:  224606.90  |   PKWOTA:  258
+NR:  103  |   DATA:  2028-07-01  |   ROK:   9  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:  1577.86  |   KAPITAL:   310.19  |   NADPLATA:     0.00  |   KAPITAL:  224296.71  |   PKWOTA:  257
+NR:  104  |   DATA:  2028-08-01  |   ROK:   9  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:  1575.68  |   KAPITAL:   312.37  |   NADPLATA:     0.00  |   KAPITAL:  223984.34  |   PKWOTA:  256
+NR:  105  |   DATA:  2028-09-01  |   ROK:   9  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:  1573.49  |   KAPITAL:   314.56  |   NADPLATA:     0.00  |   KAPITAL:  223669.78  |   PKWOTA:  255
+NR:  106  |   DATA:  2028-10-01  |   ROK:   9  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:  1571.28  |   KAPITAL:   316.77  |   NADPLATA:     0.00  |   KAPITAL:  223353.01  |   PKWOTA:  254
+NR:  107  |   DATA:  2028-11-01  |   ROK:   9  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:  1569.05  |   KAPITAL:   319.00  |   NADPLATA:     0.00  |   KAPITAL:  223034.01  |   PKWOTA:  253
+NR:  108  |   DATA:  2028-12-01  |   ROK:   9  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:  1566.81  |   KAPITAL:   321.24  |   NADPLATA:     0.00  |   KAPITAL:  222712.77  |   PKWOTA:  252
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  109  |   DATA:  2029-01-01  |   ROK:  10  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:  1564.56  |   KAPITAL:   323.50  |   NADPLATA:     0.00  |   KAPITAL:  222389.27  |   PKWOTA:  251
+NR:  110  |   DATA:  2029-02-01  |   ROK:  10  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:  1562.28  |   KAPITAL:   325.77  |   NADPLATA:     0.00  |   KAPITAL:  222063.50  |   PKWOTA:  250
+NR:  111  |   DATA:  2029-03-01  |   ROK:  10  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:  1560.00  |   KAPITAL:   328.06  |   NADPLATA:     0.00  |   KAPITAL:  221735.44  |   PKWOTA:  249
+NR:  112  |   DATA:  2029-04-01  |   ROK:  10  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:  1557.69  |   KAPITAL:   330.36  |   NADPLATA:     0.00  |   KAPITAL:  221405.08  |   PKWOTA:  248
+NR:  113  |   DATA:  2029-05-01  |   ROK:  10  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:  1555.37  |   KAPITAL:   332.68  |   NADPLATA:     0.00  |   KAPITAL:  221072.40  |   PKWOTA:  247
+NR:  114  |   DATA:  2029-06-01  |   ROK:  10  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:  1553.03  |   KAPITAL:   335.02  |   NADPLATA:     0.00  |   KAPITAL:  220737.38  |   PKWOTA:  246
+NR:  115  |   DATA:  2029-07-01  |   ROK:  10  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:  1550.68  |   KAPITAL:   337.37  |   NADPLATA:     0.00  |   KAPITAL:  220400.01  |   PKWOTA:  245
+NR:  116  |   DATA:  2029-08-01  |   ROK:  10  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:  1548.31  |   KAPITAL:   339.74  |   NADPLATA:     0.00  |   KAPITAL:  220060.27  |   PKWOTA:  244
+NR:  117  |   DATA:  2029-09-01  |   ROK:  10  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:  1545.92  |   KAPITAL:   342.13  |   NADPLATA:     0.00  |   KAPITAL:  219718.14  |   PKWOTA:  243
+NR:  118  |   DATA:  2029-10-01  |   ROK:  10  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:  1543.52  |   KAPITAL:   344.53  |   NADPLATA:     0.00  |   KAPITAL:  219373.61  |   PKWOTA:  242
+NR:  119  |   DATA:  2029-11-01  |   ROK:  10  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:  1541.10  |   KAPITAL:   346.95  |   NADPLATA:     0.00  |   KAPITAL:  219026.66  |   PKWOTA:  241
+NR:  120  |   DATA:  2029-12-01  |   ROK:  10  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:  1538.66  |   KAPITAL:   349.39  |   NADPLATA:     0.00  |   KAPITAL:  218677.27  |   PKWOTA:  240
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  121  |   DATA:  2030-01-01  |   ROK:  11  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:  1536.21  |   KAPITAL:   351.85  |   NADPLATA:     0.00  |   KAPITAL:  218325.42  |   PKWOTA:  239
+NR:  122  |   DATA:  2030-02-01  |   ROK:  11  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:  1533.74  |   KAPITAL:   354.32  |   NADPLATA:     0.00  |   KAPITAL:  217971.10  |   PKWOTA:  238
+NR:  123  |   DATA:  2030-03-01  |   ROK:  11  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:  1531.25  |   KAPITAL:   356.81  |   NADPLATA:     0.00  |   KAPITAL:  217614.29  |   PKWOTA:  237
+NR:  124  |   DATA:  2030-04-01  |   ROK:  11  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:  1528.74  |   KAPITAL:   359.31  |   NADPLATA:     0.00  |   KAPITAL:  217254.98  |   PKWOTA:  236
+NR:  125  |   DATA:  2030-05-01  |   ROK:  11  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:  1526.22  |   KAPITAL:   361.84  |   NADPLATA:     0.00  |   KAPITAL:  216893.14  |   PKWOTA:  235
+NR:  126  |   DATA:  2030-06-01  |   ROK:  11  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:  1523.67  |   KAPITAL:   364.38  |   NADPLATA:     0.00  |   KAPITAL:  216528.76  |   PKWOTA:  234
+NR:  127  |   DATA:  2030-07-01  |   ROK:  11  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:  1521.11  |   KAPITAL:   366.94  |   NADPLATA:     0.00  |   KAPITAL:  216161.82  |   PKWOTA:  233
+NR:  128  |   DATA:  2030-08-01  |   ROK:  11  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:  1518.54  |   KAPITAL:   369.52  |   NADPLATA:     0.00  |   KAPITAL:  215792.30  |   PKWOTA:  232
+NR:  129  |   DATA:  2030-09-01  |   ROK:  11  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:  1515.94  |   KAPITAL:   372.11  |   NADPLATA:     0.00  |   KAPITAL:  215420.19  |   PKWOTA:  231
+NR:  130  |   DATA:  2030-10-01  |   ROK:  11  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:  1513.33  |   KAPITAL:   374.73  |   NADPLATA:     0.00  |   KAPITAL:  215045.46  |   PKWOTA:  230
+NR:  131  |   DATA:  2030-11-01  |   ROK:  11  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:  1510.69  |   KAPITAL:   377.36  |   NADPLATA:     0.00  |   KAPITAL:  214668.10  |   PKWOTA:  229
+NR:  132  |   DATA:  2030-12-01  |   ROK:  11  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:  1508.04  |   KAPITAL:   380.01  |   NADPLATA:     0.00  |   KAPITAL:  214288.09  |   PKWOTA:  228
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  133  |   DATA:  2031-01-01  |   ROK:  12  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:  1505.37  |   KAPITAL:   382.68  |   NADPLATA:     0.00  |   KAPITAL:  213905.41  |   PKWOTA:  227
+NR:  134  |   DATA:  2031-02-01  |   ROK:  12  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:  1502.69  |   KAPITAL:   385.37  |   NADPLATA:     0.00  |   KAPITAL:  213520.04  |   PKWOTA:  226
+NR:  135  |   DATA:  2031-03-01  |   ROK:  12  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:  1499.98  |   KAPITAL:   388.08  |   NADPLATA:     0.00  |   KAPITAL:  213131.96  |   PKWOTA:  225
+NR:  136  |   DATA:  2031-04-01  |   ROK:  12  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:  1497.25  |   KAPITAL:   390.80  |   NADPLATA:     0.00  |   KAPITAL:  212741.16  |   PKWOTA:  224
+NR:  137  |   DATA:  2031-05-01  |   ROK:  12  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:  1494.51  |   KAPITAL:   393.55  |   NADPLATA:     0.00  |   KAPITAL:  212347.61  |   PKWOTA:  223
+NR:  138  |   DATA:  2031-06-01  |   ROK:  12  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:  1491.74  |   KAPITAL:   396.31  |   NADPLATA:     0.00  |   KAPITAL:  211951.30  |   PKWOTA:  222
+NR:  139  |   DATA:  2031-07-01  |   ROK:  12  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:  1488.96  |   KAPITAL:   399.10  |   NADPLATA:     0.00  |   KAPITAL:  211552.20  |   PKWOTA:  221
+NR:  140  |   DATA:  2031-08-01  |   ROK:  12  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:  1486.15  |   KAPITAL:   401.90  |   NADPLATA:     0.00  |   KAPITAL:  211150.30  |   PKWOTA:  220
+NR:  141  |   DATA:  2031-09-01  |   ROK:  12  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:  1483.33  |   KAPITAL:   404.72  |   NADPLATA:     0.00  |   KAPITAL:  210745.58  |   PKWOTA:  219
+NR:  142  |   DATA:  2031-10-01  |   ROK:  12  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:  1480.49  |   KAPITAL:   407.57  |   NADPLATA:     0.00  |   KAPITAL:  210338.01  |   PKWOTA:  218
+NR:  143  |   DATA:  2031-11-01  |   ROK:  12  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:  1477.62  |   KAPITAL:   410.43  |   NADPLATA:     0.00  |   KAPITAL:  209927.58  |   PKWOTA:  217
+NR:  144  |   DATA:  2031-12-01  |   ROK:  12  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:  1474.74  |   KAPITAL:   413.31  |   NADPLATA:     0.00  |   KAPITAL:  209514.27  |   PKWOTA:  216
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  145  |   DATA:  2032-01-01  |   ROK:  13  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:  1471.84  |   KAPITAL:   416.22  |   NADPLATA:     0.00  |   KAPITAL:  209098.05  |   PKWOTA:  215
+NR:  146  |   DATA:  2032-02-01  |   ROK:  13  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:  1468.91  |   KAPITAL:   419.14  |   NADPLATA:     0.00  |   KAPITAL:  208678.91  |   PKWOTA:  214
+NR:  147  |   DATA:  2032-03-01  |   ROK:  13  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:  1465.97  |   KAPITAL:   422.09  |   NADPLATA:     0.00  |   KAPITAL:  208256.82  |   PKWOTA:  213
+NR:  148  |   DATA:  2032-04-01  |   ROK:  13  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:  1463.00  |   KAPITAL:   425.05  |   NADPLATA:     0.00  |   KAPITAL:  207831.77  |   PKWOTA:  212
+NR:  149  |   DATA:  2032-05-01  |   ROK:  13  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:  1460.02  |   KAPITAL:   428.04  |   NADPLATA:     0.00  |   KAPITAL:  207403.73  |   PKWOTA:  211
+NR:  150  |   DATA:  2032-06-01  |   ROK:  13  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:  1457.01  |   KAPITAL:   431.04  |   NADPLATA:     0.00  |   KAPITAL:  206972.69  |   PKWOTA:  210
+NR:  151  |   DATA:  2032-07-01  |   ROK:  13  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:  1453.98  |   KAPITAL:   434.07  |   NADPLATA:     0.00  |   KAPITAL:  206538.62  |   PKWOTA:  209
+NR:  152  |   DATA:  2032-08-01  |   ROK:  13  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:  1450.93  |   KAPITAL:   437.12  |   NADPLATA:     0.00  |   KAPITAL:  206101.50  |   PKWOTA:  208
+NR:  153  |   DATA:  2032-09-01  |   ROK:  13  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:  1447.86  |   KAPITAL:   440.19  |   NADPLATA:     0.00  |   KAPITAL:  205661.31  |   PKWOTA:  207
+NR:  154  |   DATA:  2032-10-01  |   ROK:  13  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:  1444.77  |   KAPITAL:   443.28  |   NADPLATA:     0.00  |   KAPITAL:  205218.03  |   PKWOTA:  206
+NR:  155  |   DATA:  2032-11-01  |   ROK:  13  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:  1441.66  |   KAPITAL:   446.40  |   NADPLATA:     0.00  |   KAPITAL:  204771.63  |   PKWOTA:  205
+NR:  156  |   DATA:  2032-12-01  |   ROK:  13  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:  1438.52  |   KAPITAL:   449.53  |   NADPLATA:     0.00  |   KAPITAL:  204322.10  |   PKWOTA:  204
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  157  |   DATA:  2033-01-01  |   ROK:  14  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:  1435.36  |   KAPITAL:   452.69  |   NADPLATA:     0.00  |   KAPITAL:  203869.41  |   PKWOTA:  203
+NR:  158  |   DATA:  2033-02-01  |   ROK:  14  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:  1432.18  |   KAPITAL:   455.87  |   NADPLATA:     0.00  |   KAPITAL:  203413.54  |   PKWOTA:  202
+NR:  159  |   DATA:  2033-03-01  |   ROK:  14  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:  1428.98  |   KAPITAL:   459.07  |   NADPLATA:     0.00  |   KAPITAL:  202954.47  |   PKWOTA:  201
+NR:  160  |   DATA:  2033-04-01  |   ROK:  14  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:  1425.76  |   KAPITAL:   462.30  |   NADPLATA:     0.00  |   KAPITAL:  202492.17  |   PKWOTA:  200
+NR:  161  |   DATA:  2033-05-01  |   ROK:  14  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:  1422.51  |   KAPITAL:   465.55  |   NADPLATA:     0.00  |   KAPITAL:  202026.62  |   PKWOTA:  199
+NR:  162  |   DATA:  2033-06-01  |   ROK:  14  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:  1419.24  |   KAPITAL:   468.82  |   NADPLATA:     0.00  |   KAPITAL:  201557.80  |   PKWOTA:  198
+NR:  163  |   DATA:  2033-07-01  |   ROK:  14  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:  1415.94  |   KAPITAL:   472.11  |   NADPLATA:     0.00  |   KAPITAL:  201085.69  |   PKWOTA:  197
+NR:  164  |   DATA:  2033-08-01  |   ROK:  14  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:  1412.63  |   KAPITAL:   475.43  |   NADPLATA:     0.00  |   KAPITAL:  200610.26  |   PKWOTA:  196
+NR:  165  |   DATA:  2033-09-01  |   ROK:  14  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:  1409.29  |   KAPITAL:   478.77  |   NADPLATA:     0.00  |   KAPITAL:  200131.49  |   PKWOTA:  195
+NR:  166  |   DATA:  2033-10-01  |   ROK:  14  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:  1405.92  |   KAPITAL:   482.13  |   NADPLATA:     0.00  |   KAPITAL:  199649.36  |   PKWOTA:  194
+NR:  167  |   DATA:  2033-11-01  |   ROK:  14  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:  1402.54  |   KAPITAL:   485.52  |   NADPLATA:     0.00  |   KAPITAL:  199163.84  |   PKWOTA:  193
+NR:  168  |   DATA:  2033-12-01  |   ROK:  14  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:  1399.13  |   KAPITAL:   488.93  |   NADPLATA:     0.00  |   KAPITAL:  198674.91  |   PKWOTA:  192
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  169  |   DATA:  2034-01-01  |   ROK:  15  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:  1395.69  |   KAPITAL:   492.36  |   NADPLATA:     0.00  |   KAPITAL:  198182.55  |   PKWOTA:  191
+NR:  170  |   DATA:  2034-02-01  |   ROK:  15  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:  1392.23  |   KAPITAL:   495.82  |   NADPLATA:     0.00  |   KAPITAL:  197686.73  |   PKWOTA:  190
+NR:  171  |   DATA:  2034-03-01  |   ROK:  15  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:  1388.75  |   KAPITAL:   499.31  |   NADPLATA:     0.00  |   KAPITAL:  197187.42  |   PKWOTA:  189
+NR:  172  |   DATA:  2034-04-01  |   ROK:  15  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:  1385.24  |   KAPITAL:   502.81  |   NADPLATA:     0.00  |   KAPITAL:  196684.61  |   PKWOTA:  188
+NR:  173  |   DATA:  2034-05-01  |   ROK:  15  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:  1381.71  |   KAPITAL:   506.35  |   NADPLATA:     0.00  |   KAPITAL:  196178.26  |   PKWOTA:  187
+NR:  174  |   DATA:  2034-06-01  |   ROK:  15  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:  1378.15  |   KAPITAL:   509.90  |   NADPLATA:     0.00  |   KAPITAL:  195668.36  |   PKWOTA:  186
+NR:  175  |   DATA:  2034-07-01  |   ROK:  15  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:  1374.57  |   KAPITAL:   513.48  |   NADPLATA:     0.00  |   KAPITAL:  195154.88  |   PKWOTA:  185
+NR:  176  |   DATA:  2034-08-01  |   ROK:  15  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:  1370.96  |   KAPITAL:   517.09  |   NADPLATA:     0.00  |   KAPITAL:  194637.79  |   PKWOTA:  184
+NR:  177  |   DATA:  2034-09-01  |   ROK:  15  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:  1367.33  |   KAPITAL:   520.72  |   NADPLATA:     0.00  |   KAPITAL:  194117.07  |   PKWOTA:  183
+NR:  178  |   DATA:  2034-10-01  |   ROK:  15  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:  1363.67  |   KAPITAL:   524.38  |   NADPLATA:     0.00  |   KAPITAL:  193592.69  |   PKWOTA:  182
+NR:  179  |   DATA:  2034-11-01  |   ROK:  15  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:  1359.99  |   KAPITAL:   528.07  |   NADPLATA:     0.00  |   KAPITAL:  193064.62  |   PKWOTA:  181
+NR:  180  |   DATA:  2034-12-01  |   ROK:  15  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:  1356.28  |   KAPITAL:   531.78  |   NADPLATA:     0.00  |   KAPITAL:  192532.84  |   PKWOTA:  180
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  181  |   DATA:  2035-01-01  |   ROK:  16  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:  1352.54  |   KAPITAL:   535.51  |   NADPLATA:     0.00  |   KAPITAL:  191997.33  |   PKWOTA:  179
+NR:  182  |   DATA:  2035-02-01  |   ROK:  16  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:  1348.78  |   KAPITAL:   539.27  |   NADPLATA:     0.00  |   KAPITAL:  191458.06  |   PKWOTA:  178
+NR:  183  |   DATA:  2035-03-01  |   ROK:  16  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:  1344.99  |   KAPITAL:   543.06  |   NADPLATA:     0.00  |   KAPITAL:  190915.00  |   PKWOTA:  177
+NR:  184  |   DATA:  2035-04-01  |   ROK:  16  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:  1341.18  |   KAPITAL:   546.88  |   NADPLATA:     0.00  |   KAPITAL:  190368.12  |   PKWOTA:  176
+NR:  185  |   DATA:  2035-05-01  |   ROK:  16  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:  1337.34  |   KAPITAL:   550.72  |   NADPLATA:     0.00  |   KAPITAL:  189817.40  |   PKWOTA:  175
+NR:  186  |   DATA:  2035-06-01  |   ROK:  16  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:  1333.47  |   KAPITAL:   554.59  |   NADPLATA:     0.00  |   KAPITAL:  189262.81  |   PKWOTA:  174
+NR:  187  |   DATA:  2035-07-01  |   ROK:  16  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:  1329.57  |   KAPITAL:   558.48  |   NADPLATA:     0.00  |   KAPITAL:  188704.33  |   PKWOTA:  173
+NR:  188  |   DATA:  2035-08-01  |   ROK:  16  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:  1325.65  |   KAPITAL:   562.41  |   NADPLATA:     0.00  |   KAPITAL:  188141.92  |   PKWOTA:  172
+NR:  189  |   DATA:  2035-09-01  |   ROK:  16  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:  1321.70  |   KAPITAL:   566.36  |   NADPLATA:     0.00  |   KAPITAL:  187575.56  |   PKWOTA:  171
+NR:  190  |   DATA:  2035-10-01  |   ROK:  16  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:  1317.72  |   KAPITAL:   570.34  |   NADPLATA:     0.00  |   KAPITAL:  187005.22  |   PKWOTA:  170
+NR:  191  |   DATA:  2035-11-01  |   ROK:  16  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:  1313.71  |   KAPITAL:   574.34  |   NADPLATA:     0.00  |   KAPITAL:  186430.88  |   PKWOTA:  169
+NR:  192  |   DATA:  2035-12-01  |   ROK:  16  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:  1309.68  |   KAPITAL:   578.38  |   NADPLATA:     0.00  |   KAPITAL:  185852.50  |   PKWOTA:  168
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  193  |   DATA:  2036-01-01  |   ROK:  17  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:  1305.61  |   KAPITAL:   582.44  |   NADPLATA:     0.00  |   KAPITAL:  185270.06  |   PKWOTA:  167
+NR:  194  |   DATA:  2036-02-01  |   ROK:  17  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:  1301.52  |   KAPITAL:   586.53  |   NADPLATA:     0.00  |   KAPITAL:  184683.53  |   PKWOTA:  166
+NR:  195  |   DATA:  2036-03-01  |   ROK:  17  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:  1297.40  |   KAPITAL:   590.65  |   NADPLATA:     0.00  |   KAPITAL:  184092.88  |   PKWOTA:  165
+NR:  196  |   DATA:  2036-04-01  |   ROK:  17  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:  1293.25  |   KAPITAL:   594.80  |   NADPLATA:     0.00  |   KAPITAL:  183498.08  |   PKWOTA:  164
+NR:  197  |   DATA:  2036-05-01  |   ROK:  17  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:  1289.07  |   KAPITAL:   598.98  |   NADPLATA:     0.00  |   KAPITAL:  182899.10  |   PKWOTA:  163
+NR:  198  |   DATA:  2036-06-01  |   ROK:  17  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:  1284.87  |   KAPITAL:   603.19  |   NADPLATA:     0.00  |   KAPITAL:  182295.91  |   PKWOTA:  162
+NR:  199  |   DATA:  2036-07-01  |   ROK:  17  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:  1280.63  |   KAPITAL:   607.43  |   NADPLATA:     0.00  |   KAPITAL:  181688.48  |   PKWOTA:  161
+NR:  200  |   DATA:  2036-08-01  |   ROK:  17  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:  1276.36  |   KAPITAL:   611.69  |   NADPLATA:     0.00  |   KAPITAL:  181076.79  |   PKWOTA:  160
+NR:  201  |   DATA:  2036-09-01  |   ROK:  17  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:  1272.06  |   KAPITAL:   615.99  |   NADPLATA:     0.00  |   KAPITAL:  180460.80  |   PKWOTA:  159
+NR:  202  |   DATA:  2036-10-01  |   ROK:  17  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:  1267.74  |   KAPITAL:   620.32  |   NADPLATA:     0.00  |   KAPITAL:  179840.48  |   PKWOTA:  158
+NR:  203  |   DATA:  2036-11-01  |   ROK:  17  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:  1263.38  |   KAPITAL:   624.68  |   NADPLATA:     0.00  |   KAPITAL:  179215.80  |   PKWOTA:  157
+NR:  204  |   DATA:  2036-12-01  |   ROK:  17  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:  1258.99  |   KAPITAL:   629.06  |   NADPLATA:     0.00  |   KAPITAL:  178586.74  |   PKWOTA:  156
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  205  |   DATA:  2037-01-01  |   ROK:  18  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:  1254.57  |   KAPITAL:   633.48  |   NADPLATA:     0.00  |   KAPITAL:  177953.26  |   PKWOTA:  155
+NR:  206  |   DATA:  2037-02-01  |   ROK:  18  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:  1250.12  |   KAPITAL:   637.93  |   NADPLATA:     0.00  |   KAPITAL:  177315.33  |   PKWOTA:  154
+NR:  207  |   DATA:  2037-03-01  |   ROK:  18  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:  1245.64  |   KAPITAL:   642.41  |   NADPLATA:     0.00  |   KAPITAL:  176672.92  |   PKWOTA:  153
+NR:  208  |   DATA:  2037-04-01  |   ROK:  18  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:  1241.13  |   KAPITAL:   646.93  |   NADPLATA:     0.00  |   KAPITAL:  176025.99  |   PKWOTA:  152
+NR:  209  |   DATA:  2037-05-01  |   ROK:  18  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:  1236.58  |   KAPITAL:   651.47  |   NADPLATA:     0.00  |   KAPITAL:  175374.52  |   PKWOTA:  151
+NR:  210  |   DATA:  2037-06-01  |   ROK:  18  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:  1232.01  |   KAPITAL:   656.05  |   NADPLATA:     0.00  |   KAPITAL:  174718.47  |   PKWOTA:  150
+NR:  211  |   DATA:  2037-07-01  |   ROK:  18  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:  1227.40  |   KAPITAL:   660.66  |   NADPLATA:     0.00  |   KAPITAL:  174057.81  |   PKWOTA:  149
+NR:  212  |   DATA:  2037-08-01  |   ROK:  18  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:  1222.76  |   KAPITAL:   665.30  |   NADPLATA:     0.00  |   KAPITAL:  173392.51  |   PKWOTA:  148
+NR:  213  |   DATA:  2037-09-01  |   ROK:  18  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:  1218.08  |   KAPITAL:   669.97  |   NADPLATA:     0.00  |   KAPITAL:  172722.54  |   PKWOTA:  147
+NR:  214  |   DATA:  2037-10-01  |   ROK:  18  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:  1213.38  |   KAPITAL:   674.68  |   NADPLATA:     0.00  |   KAPITAL:  172047.86  |   PKWOTA:  146
+NR:  215  |   DATA:  2037-11-01  |   ROK:  18  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:  1208.64  |   KAPITAL:   679.42  |   NADPLATA:     0.00  |   KAPITAL:  171368.44  |   PKWOTA:  145
+NR:  216  |   DATA:  2037-12-01  |   ROK:  18  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:  1203.86  |   KAPITAL:   684.19  |   NADPLATA:     0.00  |   KAPITAL:  170684.25  |   PKWOTA:  144
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  217  |   DATA:  2038-01-01  |   ROK:  19  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:  1199.06  |   KAPITAL:   689.00  |   NADPLATA:     0.00  |   KAPITAL:  169995.25  |   PKWOTA:  143
+NR:  218  |   DATA:  2038-02-01  |   ROK:  19  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:  1194.22  |   KAPITAL:   693.84  |   NADPLATA:     0.00  |   KAPITAL:  169301.41  |   PKWOTA:  142
+NR:  219  |   DATA:  2038-03-01  |   ROK:  19  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:  1189.34  |   KAPITAL:   698.71  |   NADPLATA:     0.00  |   KAPITAL:  168602.70  |   PKWOTA:  141
+NR:  220  |   DATA:  2038-04-01  |   ROK:  19  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:  1184.43  |   KAPITAL:   703.62  |   NADPLATA:     0.00  |   KAPITAL:  167899.08  |   PKWOTA:  140
+NR:  221  |   DATA:  2038-05-01  |   ROK:  19  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:  1179.49  |   KAPITAL:   708.56  |   NADPLATA:     0.00  |   KAPITAL:  167190.52  |   PKWOTA:  139
+NR:  222  |   DATA:  2038-06-01  |   ROK:  19  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:  1174.51  |   KAPITAL:   713.54  |   NADPLATA:     0.00  |   KAPITAL:  166476.98  |   PKWOTA:  138
+NR:  223  |   DATA:  2038-07-01  |   ROK:  19  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:  1169.50  |   KAPITAL:   718.55  |   NADPLATA:     0.00  |   KAPITAL:  165758.43  |   PKWOTA:  137
+NR:  224  |   DATA:  2038-08-01  |   ROK:  19  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:  1164.45  |   KAPITAL:   723.60  |   NADPLATA:     0.00  |   KAPITAL:  165034.83  |   PKWOTA:  136
+NR:  225  |   DATA:  2038-09-01  |   ROK:  19  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:  1159.37  |   KAPITAL:   728.68  |   NADPLATA:     0.00  |   KAPITAL:  164306.15  |   PKWOTA:  135
+NR:  226  |   DATA:  2038-10-01  |   ROK:  19  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:  1154.25  |   KAPITAL:   733.80  |   NADPLATA:     0.00  |   KAPITAL:  163572.35  |   PKWOTA:  134
+NR:  227  |   DATA:  2038-11-01  |   ROK:  19  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:  1149.10  |   KAPITAL:   738.96  |   NADPLATA:     0.00  |   KAPITAL:  162833.39  |   PKWOTA:  133
+NR:  228  |   DATA:  2038-12-01  |   ROK:  19  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:  1143.90  |   KAPITAL:   744.15  |   NADPLATA:     0.00  |   KAPITAL:  162089.24  |   PKWOTA:  132
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  229  |   DATA:  2039-01-01  |   ROK:  20  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:  1138.68  |   KAPITAL:   749.38  |   NADPLATA:     0.00  |   KAPITAL:  161339.86  |   PKWOTA:  131
+NR:  230  |   DATA:  2039-02-01  |   ROK:  20  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:  1133.41  |   KAPITAL:   754.64  |   NADPLATA:     0.00  |   KAPITAL:  160585.22  |   PKWOTA:  130
+NR:  231  |   DATA:  2039-03-01  |   ROK:  20  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:  1128.11  |   KAPITAL:   759.94  |   NADPLATA:     0.00  |   KAPITAL:  159825.28  |   PKWOTA:  129
+NR:  232  |   DATA:  2039-04-01  |   ROK:  20  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:  1122.77  |   KAPITAL:   765.28  |   NADPLATA:     0.00  |   KAPITAL:  159060.00  |   PKWOTA:  128
+NR:  233  |   DATA:  2039-05-01  |   ROK:  20  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:  1117.40  |   KAPITAL:   770.66  |   NADPLATA:     0.00  |   KAPITAL:  158289.34  |   PKWOTA:  127
+NR:  234  |   DATA:  2039-06-01  |   ROK:  20  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:  1111.98  |   KAPITAL:   776.07  |   NADPLATA:     0.00  |   KAPITAL:  157513.27  |   PKWOTA:  126
+NR:  235  |   DATA:  2039-07-01  |   ROK:  20  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:  1106.53  |   KAPITAL:   781.52  |   NADPLATA:     0.00  |   KAPITAL:  156731.75  |   PKWOTA:  125
+NR:  236  |   DATA:  2039-08-01  |   ROK:  20  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:  1101.04  |   KAPITAL:   787.01  |   NADPLATA:     0.00  |   KAPITAL:  155944.74  |   PKWOTA:  124
+NR:  237  |   DATA:  2039-09-01  |   ROK:  20  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:  1095.51  |   KAPITAL:   792.54  |   NADPLATA:     0.00  |   KAPITAL:  155152.20  |   PKWOTA:  123
+NR:  238  |   DATA:  2039-10-01  |   ROK:  20  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:  1089.94  |   KAPITAL:   798.11  |   NADPLATA:     0.00  |   KAPITAL:  154354.09  |   PKWOTA:  122
+NR:  239  |   DATA:  2039-11-01  |   ROK:  20  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:  1084.34  |   KAPITAL:   803.72  |   NADPLATA:     0.00  |   KAPITAL:  153550.37  |   PKWOTA:  121
+NR:  240  |   DATA:  2039-12-01  |   ROK:  20  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:  1078.69  |   KAPITAL:   809.36  |   NADPLATA:     0.00  |   KAPITAL:  152741.01  |   PKWOTA:  120
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  241  |   DATA:  2040-01-01  |   ROK:  21  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:  1073.01  |   KAPITAL:   815.05  |   NADPLATA:     0.00  |   KAPITAL:  151925.96  |   PKWOTA:  119
+NR:  242  |   DATA:  2040-02-01  |   ROK:  21  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:  1067.28  |   KAPITAL:   820.77  |   NADPLATA:     0.00  |   KAPITAL:  151105.19  |   PKWOTA:  118
+NR:  243  |   DATA:  2040-03-01  |   ROK:  21  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:  1061.51  |   KAPITAL:   826.54  |   NADPLATA:     0.00  |   KAPITAL:  150278.65  |   PKWOTA:  117
+NR:  244  |   DATA:  2040-04-01  |   ROK:  21  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:  1055.71  |   KAPITAL:   832.35  |   NADPLATA:     0.00  |   KAPITAL:  149446.30  |   PKWOTA:  116
+NR:  245  |   DATA:  2040-05-01  |   ROK:  21  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:  1049.86  |   KAPITAL:   838.19  |   NADPLATA:     0.00  |   KAPITAL:  148608.11  |   PKWOTA:  115
+NR:  246  |   DATA:  2040-06-01  |   ROK:  21  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:  1043.97  |   KAPITAL:   844.08  |   NADPLATA:     0.00  |   KAPITAL:  147764.03  |   PKWOTA:  114
+NR:  247  |   DATA:  2040-07-01  |   ROK:  21  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:  1038.04  |   KAPITAL:   850.01  |   NADPLATA:     0.00  |   KAPITAL:  146914.02  |   PKWOTA:  113
+NR:  248  |   DATA:  2040-08-01  |   ROK:  21  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:  1032.07  |   KAPITAL:   855.98  |   NADPLATA:     0.00  |   KAPITAL:  146058.04  |   PKWOTA:  112
+NR:  249  |   DATA:  2040-09-01  |   ROK:  21  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:  1026.06  |   KAPITAL:   862.00  |   NADPLATA:     0.00  |   KAPITAL:  145196.04  |   PKWOTA:  111
+NR:  250  |   DATA:  2040-10-01  |   ROK:  21  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:  1020.00  |   KAPITAL:   868.05  |   NADPLATA:     0.00  |   KAPITAL:  144327.99  |   PKWOTA:  110
+NR:  251  |   DATA:  2040-11-01  |   ROK:  21  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:  1013.90  |   KAPITAL:   874.15  |   NADPLATA:     0.00  |   KAPITAL:  143453.84  |   PKWOTA:  109
+NR:  252  |   DATA:  2040-12-01  |   ROK:  21  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:  1007.76  |   KAPITAL:   880.29  |   NADPLATA:     0.00  |   KAPITAL:  142573.55  |   PKWOTA:  108
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  253  |   DATA:  2041-01-01  |   ROK:  22  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:  1001.58  |   KAPITAL:   886.48  |   NADPLATA:     0.00  |   KAPITAL:  141687.07  |   PKWOTA:  107
+NR:  254  |   DATA:  2041-02-01  |   ROK:  22  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:   995.35  |   KAPITAL:   892.70  |   NADPLATA:     0.00  |   KAPITAL:  140794.37  |   PKWOTA:  106
+NR:  255  |   DATA:  2041-03-01  |   ROK:  22  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:   989.08  |   KAPITAL:   898.97  |   NADPLATA:     0.00  |   KAPITAL:  139895.40  |   PKWOTA:  105
+NR:  256  |   DATA:  2041-04-01  |   ROK:  22  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:   982.77  |   KAPITAL:   905.29  |   NADPLATA:     0.00  |   KAPITAL:  138990.11  |   PKWOTA:  104
+NR:  257  |   DATA:  2041-05-01  |   ROK:  22  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:   976.41  |   KAPITAL:   911.65  |   NADPLATA:     0.00  |   KAPITAL:  138078.46  |   PKWOTA:  103
+NR:  258  |   DATA:  2041-06-01  |   ROK:  22  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:   970.00  |   KAPITAL:   918.05  |   NADPLATA:     0.00  |   KAPITAL:  137160.41  |   PKWOTA:  102
+NR:  259  |   DATA:  2041-07-01  |   ROK:  22  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:   963.55  |   KAPITAL:   924.50  |   NADPLATA:     0.00  |   KAPITAL:  136235.91  |   PKWOTA:  101
+NR:  260  |   DATA:  2041-08-01  |   ROK:  22  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:   957.06  |   KAPITAL:   931.00  |   NADPLATA:     0.00  |   KAPITAL:  135304.91  |   PKWOTA:  100
+NR:  261  |   DATA:  2041-09-01  |   ROK:  22  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:   950.52  |   KAPITAL:   937.54  |   NADPLATA:     0.00  |   KAPITAL:  134367.37  |   PKWOTA:   99
+NR:  262  |   DATA:  2041-10-01  |   ROK:  22  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:   943.93  |   KAPITAL:   944.12  |   NADPLATA:     0.00  |   KAPITAL:  133423.25  |   PKWOTA:   98
+NR:  263  |   DATA:  2041-11-01  |   ROK:  22  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:   937.30  |   KAPITAL:   950.76  |   NADPLATA:     0.00  |   KAPITAL:  132472.49  |   PKWOTA:   97
+NR:  264  |   DATA:  2041-12-01  |   ROK:  22  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:   930.62  |   KAPITAL:   957.44  |   NADPLATA:     0.00  |   KAPITAL:  131515.05  |   PKWOTA:   96
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  265  |   DATA:  2042-01-01  |   ROK:  23  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:   923.89  |   KAPITAL:   964.16  |   NADPLATA:     0.00  |   KAPITAL:  130550.89  |   PKWOTA:   95
+NR:  266  |   DATA:  2042-02-01  |   ROK:  23  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:   917.12  |   KAPITAL:   970.93  |   NADPLATA:     0.00  |   KAPITAL:  129579.96  |   PKWOTA:   94
+NR:  267  |   DATA:  2042-03-01  |   ROK:  23  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:   910.30  |   KAPITAL:   977.76  |   NADPLATA:     0.00  |   KAPITAL:  128602.20  |   PKWOTA:   93
+NR:  268  |   DATA:  2042-04-01  |   ROK:  23  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:   903.43  |   KAPITAL:   984.62  |   NADPLATA:     0.00  |   KAPITAL:  127617.58  |   PKWOTA:   92
+NR:  269  |   DATA:  2042-05-01  |   ROK:  23  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:   896.51  |   KAPITAL:   991.54  |   NADPLATA:     0.00  |   KAPITAL:  126626.04  |   PKWOTA:   91
+NR:  270  |   DATA:  2042-06-01  |   ROK:  23  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:   889.55  |   KAPITAL:   998.51  |   NADPLATA:     0.00  |   KAPITAL:  125627.53  |   PKWOTA:   90
+NR:  271  |   DATA:  2042-07-01  |   ROK:  23  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:   882.53  |   KAPITAL:  1005.52  |   NADPLATA:     0.00  |   KAPITAL:  124622.01  |   PKWOTA:   89
+NR:  272  |   DATA:  2042-08-01  |   ROK:  23  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:   875.47  |   KAPITAL:  1012.58  |   NADPLATA:     0.00  |   KAPITAL:  123609.43  |   PKWOTA:   88
+NR:  273  |   DATA:  2042-09-01  |   ROK:  23  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:   868.36  |   KAPITAL:  1019.70  |   NADPLATA:     0.00  |   KAPITAL:  122589.73  |   PKWOTA:   87
+NR:  274  |   DATA:  2042-10-01  |   ROK:  23  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:   861.19  |   KAPITAL:  1026.86  |   NADPLATA:     0.00  |   KAPITAL:  121562.87  |   PKWOTA:   86
+NR:  275  |   DATA:  2042-11-01  |   ROK:  23  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:   853.98  |   KAPITAL:  1034.08  |   NADPLATA:     0.00  |   KAPITAL:  120528.79  |   PKWOTA:   85
+NR:  276  |   DATA:  2042-12-01  |   ROK:  23  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:   846.71  |   KAPITAL:  1041.34  |   NADPLATA:     0.00  |   KAPITAL:  119487.45  |   PKWOTA:   84
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  277  |   DATA:  2043-01-01  |   ROK:  24  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:   839.40  |   KAPITAL:  1048.66  |   NADPLATA:     0.00  |   KAPITAL:  118438.79  |   PKWOTA:   83
+NR:  278  |   DATA:  2043-02-01  |   ROK:  24  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:   832.03  |   KAPITAL:  1056.02  |   NADPLATA:     0.00  |   KAPITAL:  117382.77  |   PKWOTA:   82
+NR:  279  |   DATA:  2043-03-01  |   ROK:  24  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:   824.61  |   KAPITAL:  1063.44  |   NADPLATA:     0.00  |   KAPITAL:  116319.33  |   PKWOTA:   81
+NR:  280  |   DATA:  2043-04-01  |   ROK:  24  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:   817.14  |   KAPITAL:  1070.91  |   NADPLATA:     0.00  |   KAPITAL:  115248.42  |   PKWOTA:   80
+NR:  281  |   DATA:  2043-05-01  |   ROK:  24  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:   809.62  |   KAPITAL:  1078.43  |   NADPLATA:     0.00  |   KAPITAL:  114169.99  |   PKWOTA:   79
+NR:  282  |   DATA:  2043-06-01  |   ROK:  24  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:   802.04  |   KAPITAL:  1086.01  |   NADPLATA:     0.00  |   KAPITAL:  113083.98  |   PKWOTA:   78
+NR:  283  |   DATA:  2043-07-01  |   ROK:  24  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:   794.41  |   KAPITAL:  1093.64  |   NADPLATA:     0.00  |   KAPITAL:  111990.34  |   PKWOTA:   77
+NR:  284  |   DATA:  2043-08-01  |   ROK:  24  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:   786.73  |   KAPITAL:  1101.32  |   NADPLATA:     0.00  |   KAPITAL:  110889.02  |   PKWOTA:   76
+NR:  285  |   DATA:  2043-09-01  |   ROK:  24  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:   779.00  |   KAPITAL:  1109.06  |   NADPLATA:     0.00  |   KAPITAL:  109779.96  |   PKWOTA:   75
+NR:  286  |   DATA:  2043-10-01  |   ROK:  24  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:   771.20  |   KAPITAL:  1116.85  |   NADPLATA:     0.00  |   KAPITAL:  108663.11  |   PKWOTA:   74
+NR:  287  |   DATA:  2043-11-01  |   ROK:  24  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:   763.36  |   KAPITAL:  1124.70  |   NADPLATA:     0.00  |   KAPITAL:  107538.41  |   PKWOTA:   73
+NR:  288  |   DATA:  2043-12-01  |   ROK:  24  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:   755.46  |   KAPITAL:  1132.60  |   NADPLATA:     0.00  |   KAPITAL:  106405.81  |   PKWOTA:   72
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  289  |   DATA:  2044-01-01  |   ROK:  25  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:   747.50  |   KAPITAL:  1140.55  |   NADPLATA:     0.00  |   KAPITAL:  105265.26  |   PKWOTA:   71
+NR:  290  |   DATA:  2044-02-01  |   ROK:  25  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:   739.49  |   KAPITAL:  1148.57  |   NADPLATA:     0.00  |   KAPITAL:  104116.69  |   PKWOTA:   70
+NR:  291  |   DATA:  2044-03-01  |   ROK:  25  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:   731.42  |   KAPITAL:  1156.63  |   NADPLATA:     0.00  |   KAPITAL:  102960.06  |   PKWOTA:   69
+NR:  292  |   DATA:  2044-04-01  |   ROK:  25  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:   723.29  |   KAPITAL:  1164.76  |   NADPLATA:     0.00  |   KAPITAL:  101795.30  |   PKWOTA:   68
+NR:  293  |   DATA:  2044-05-01  |   ROK:  25  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:   715.11  |   KAPITAL:  1172.94  |   NADPLATA:     0.00  |   KAPITAL:  100622.36  |   PKWOTA:   67
+NR:  294  |   DATA:  2044-06-01  |   ROK:  25  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:   706.87  |   KAPITAL:  1181.18  |   NADPLATA:     0.00  |   KAPITAL:  99441.18  |   PKWOTA:   66
+NR:  295  |   DATA:  2044-07-01  |   ROK:  25  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:   698.57  |   KAPITAL:  1189.48  |   NADPLATA:     0.00  |   KAPITAL:  98251.70  |   PKWOTA:   65
+NR:  296  |   DATA:  2044-08-01  |   ROK:  25  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:   690.22  |   KAPITAL:  1197.84  |   NADPLATA:     0.00  |   KAPITAL:  97053.86  |   PKWOTA:   64
+NR:  297  |   DATA:  2044-09-01  |   ROK:  25  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:   681.80  |   KAPITAL:  1206.25  |   NADPLATA:     0.00  |   KAPITAL:  95847.61  |   PKWOTA:   63
+NR:  298  |   DATA:  2044-10-01  |   ROK:  25  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:   673.33  |   KAPITAL:  1214.73  |   NADPLATA:     0.00  |   KAPITAL:  94632.88  |   PKWOTA:   62
+NR:  299  |   DATA:  2044-11-01  |   ROK:  25  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:   664.80  |   KAPITAL:  1223.26  |   NADPLATA:     0.00  |   KAPITAL:  93409.62  |   PKWOTA:   61
+NR:  300  |   DATA:  2044-12-01  |   ROK:  25  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:   656.20  |   KAPITAL:  1231.85  |   NADPLATA:     0.00  |   KAPITAL:  92177.77  |   PKWOTA:   60
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  301  |   DATA:  2045-01-01  |   ROK:  26  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:   647.55  |   KAPITAL:  1240.51  |   NADPLATA:     0.00  |   KAPITAL:  90937.26  |   PKWOTA:   59
+NR:  302  |   DATA:  2045-02-01  |   ROK:  26  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:   638.83  |   KAPITAL:  1249.22  |   NADPLATA:     0.00  |   KAPITAL:  89688.04  |   PKWOTA:   58
+NR:  303  |   DATA:  2045-03-01  |   ROK:  26  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:   630.06  |   KAPITAL:  1258.00  |   NADPLATA:     0.00  |   KAPITAL:  88430.04  |   PKWOTA:   57
+NR:  304  |   DATA:  2045-04-01  |   ROK:  26  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:   621.22  |   KAPITAL:  1266.83  |   NADPLATA:     0.00  |   KAPITAL:  87163.21  |   PKWOTA:   56
+NR:  305  |   DATA:  2045-05-01  |   ROK:  26  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:   612.32  |   KAPITAL:  1275.73  |   NADPLATA:     0.00  |   KAPITAL:  85887.48  |   PKWOTA:   55
+NR:  306  |   DATA:  2045-06-01  |   ROK:  26  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:   603.36  |   KAPITAL:  1284.70  |   NADPLATA:     0.00  |   KAPITAL:  84602.78  |   PKWOTA:   54
+NR:  307  |   DATA:  2045-07-01  |   ROK:  26  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:   594.33  |   KAPITAL:  1293.72  |   NADPLATA:     0.00  |   KAPITAL:  83309.06  |   PKWOTA:   53
+NR:  308  |   DATA:  2045-08-01  |   ROK:  26  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:   585.25  |   KAPITAL:  1302.81  |   NADPLATA:     0.00  |   KAPITAL:  82006.25  |   PKWOTA:   52
+NR:  309  |   DATA:  2045-09-01  |   ROK:  26  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:   576.09  |   KAPITAL:  1311.96  |   NADPLATA:     0.00  |   KAPITAL:  80694.29  |   PKWOTA:   51
+NR:  310  |   DATA:  2045-10-01  |   ROK:  26  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:   566.88  |   KAPITAL:  1321.18  |   NADPLATA:     0.00  |   KAPITAL:  79373.11  |   PKWOTA:   50
+NR:  311  |   DATA:  2045-11-01  |   ROK:  26  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:   557.60  |   KAPITAL:  1330.46  |   NADPLATA:     0.00  |   KAPITAL:  78042.65  |   PKWOTA:   49
+NR:  312  |   DATA:  2045-12-01  |   ROK:  26  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:   548.25  |   KAPITAL:  1339.80  |   NADPLATA:     0.00  |   KAPITAL:  76702.85  |   PKWOTA:   48
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  313  |   DATA:  2046-01-01  |   ROK:  27  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:   538.84  |   KAPITAL:  1349.22  |   NADPLATA:     0.00  |   KAPITAL:  75353.63  |   PKWOTA:   47
+NR:  314  |   DATA:  2046-02-01  |   ROK:  27  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:   529.36  |   KAPITAL:  1358.70  |   NADPLATA:     0.00  |   KAPITAL:  73994.93  |   PKWOTA:   46
+NR:  315  |   DATA:  2046-03-01  |   ROK:  27  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:   519.81  |   KAPITAL:  1368.24  |   NADPLATA:     0.00  |   KAPITAL:  72626.69  |   PKWOTA:   45
+NR:  316  |   DATA:  2046-04-01  |   ROK:  27  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:   510.20  |   KAPITAL:  1377.85  |   NADPLATA:     0.00  |   KAPITAL:  71248.84  |   PKWOTA:   44
+NR:  317  |   DATA:  2046-05-01  |   ROK:  27  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:   500.52  |   KAPITAL:  1387.53  |   NADPLATA:     0.00  |   KAPITAL:  69861.31  |   PKWOTA:   43
+NR:  318  |   DATA:  2046-06-01  |   ROK:  27  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:   490.78  |   KAPITAL:  1397.28  |   NADPLATA:     0.00  |   KAPITAL:  68464.03  |   PKWOTA:   42
+NR:  319  |   DATA:  2046-07-01  |   ROK:  27  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:   480.96  |   KAPITAL:  1407.09  |   NADPLATA:     0.00  |   KAPITAL:  67056.94  |   PKWOTA:   41
+NR:  320  |   DATA:  2046-08-01  |   ROK:  27  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:   471.08  |   KAPITAL:  1416.98  |   NADPLATA:     0.00  |   KAPITAL:  65639.96  |   PKWOTA:   40
+NR:  321  |   DATA:  2046-09-01  |   ROK:  27  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:   461.12  |   KAPITAL:  1426.93  |   NADPLATA:     0.00  |   KAPITAL:  64213.03  |   PKWOTA:   39
+NR:  322  |   DATA:  2046-10-01  |   ROK:  27  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:   451.10  |   KAPITAL:  1436.96  |   NADPLATA:     0.00  |   KAPITAL:  62776.07  |   PKWOTA:   38
+NR:  323  |   DATA:  2046-11-01  |   ROK:  27  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:   441.00  |   KAPITAL:  1447.05  |   NADPLATA:     0.00  |   KAPITAL:  61329.02  |   PKWOTA:   37
+NR:  324  |   DATA:  2046-12-01  |   ROK:  27  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:   430.84  |   KAPITAL:  1457.22  |   NADPLATA:     0.00  |   KAPITAL:  59871.80  |   PKWOTA:   36
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  325  |   DATA:  2047-01-01  |   ROK:  28  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:   420.60  |   KAPITAL:  1467.46  |   NADPLATA:     0.00  |   KAPITAL:  58404.34  |   PKWOTA:   35
+NR:  326  |   DATA:  2047-02-01  |   ROK:  28  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:   410.29  |   KAPITAL:  1477.76  |   NADPLATA:     0.00  |   KAPITAL:  56926.58  |   PKWOTA:   34
+NR:  327  |   DATA:  2047-03-01  |   ROK:  28  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:   399.91  |   KAPITAL:  1488.15  |   NADPLATA:     0.00  |   KAPITAL:  55438.43  |   PKWOTA:   33
+NR:  328  |   DATA:  2047-04-01  |   ROK:  28  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:   389.45  |   KAPITAL:  1498.60  |   NADPLATA:     0.00  |   KAPITAL:  53939.83  |   PKWOTA:   32
+NR:  329  |   DATA:  2047-05-01  |   ROK:  28  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:   378.93  |   KAPITAL:  1509.13  |   NADPLATA:     0.00  |   KAPITAL:  52430.70  |   PKWOTA:   31
+NR:  330  |   DATA:  2047-06-01  |   ROK:  28  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:   368.33  |   KAPITAL:  1519.73  |   NADPLATA:     0.00  |   KAPITAL:  50910.97  |   PKWOTA:   30
+NR:  331  |   DATA:  2047-07-01  |   ROK:  28  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:   357.65  |   KAPITAL:  1530.41  |   NADPLATA:     0.00  |   KAPITAL:  49380.56  |   PKWOTA:   29
+NR:  332  |   DATA:  2047-08-01  |   ROK:  28  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:   346.90  |   KAPITAL:  1541.16  |   NADPLATA:     0.00  |   KAPITAL:  47839.40  |   PKWOTA:   28
+NR:  333  |   DATA:  2047-09-01  |   ROK:  28  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:   336.07  |   KAPITAL:  1551.98  |   NADPLATA:     0.00  |   KAPITAL:  46287.42  |   PKWOTA:   27
+NR:  334  |   DATA:  2047-10-01  |   ROK:  28  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:   325.17  |   KAPITAL:  1562.89  |   NADPLATA:     0.00  |   KAPITAL:  44724.53  |   PKWOTA:   26
+NR:  335  |   DATA:  2047-11-01  |   ROK:  28  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:   314.19  |   KAPITAL:  1573.86  |   NADPLATA:     0.00  |   KAPITAL:  43150.67  |   PKWOTA:   25
+NR:  336  |   DATA:  2047-12-01  |   ROK:  28  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:   303.13  |   KAPITAL:  1584.92  |   NADPLATA:     0.00  |   KAPITAL:  41565.75  |   PKWOTA:   24
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  337  |   DATA:  2048-01-01  |   ROK:  29  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:   292.00  |   KAPITAL:  1596.06  |   NADPLATA:     0.00  |   KAPITAL:  39969.69  |   PKWOTA:   23
+NR:  338  |   DATA:  2048-02-01  |   ROK:  29  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:   280.79  |   KAPITAL:  1607.27  |   NADPLATA:     0.00  |   KAPITAL:  38362.42  |   PKWOTA:   22
+NR:  339  |   DATA:  2048-03-01  |   ROK:  29  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:   269.50  |   KAPITAL:  1618.56  |   NADPLATA:     0.00  |   KAPITAL:  36743.86  |   PKWOTA:   21
+NR:  340  |   DATA:  2048-04-01  |   ROK:  29  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:   258.13  |   KAPITAL:  1629.93  |   NADPLATA:     0.00  |   KAPITAL:  35113.93  |   PKWOTA:   20
+NR:  341  |   DATA:  2048-05-01  |   ROK:  29  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:   246.68  |   KAPITAL:  1641.38  |   NADPLATA:     0.00  |   KAPITAL:  33472.55  |   PKWOTA:   19
+NR:  342  |   DATA:  2048-06-01  |   ROK:  29  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:   235.14  |   KAPITAL:  1652.91  |   NADPLATA:     0.00  |   KAPITAL:  31819.64  |   PKWOTA:   18
+NR:  343  |   DATA:  2048-07-01  |   ROK:  29  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:   223.53  |   KAPITAL:  1664.52  |   NADPLATA:     0.00  |   KAPITAL:  30155.12  |   PKWOTA:   17
+NR:  344  |   DATA:  2048-08-01  |   ROK:  29  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:   211.84  |   KAPITAL:  1676.21  |   NADPLATA:     0.00  |   KAPITAL:  28478.91  |   PKWOTA:   16
+NR:  345  |   DATA:  2048-09-01  |   ROK:  29  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:   200.06  |   KAPITAL:  1687.99  |   NADPLATA:     0.00  |   KAPITAL:  26790.92  |   PKWOTA:   15
+NR:  346  |   DATA:  2048-10-01  |   ROK:  29  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:   188.21  |   KAPITAL:  1699.85  |   NADPLATA:     0.00  |   KAPITAL:  25091.07  |   PKWOTA:   14
+NR:  347  |   DATA:  2048-11-01  |   ROK:  29  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:   176.26  |   KAPITAL:  1711.79  |   NADPLATA:     0.00  |   KAPITAL:  23379.28  |   PKWOTA:   13
+NR:  348  |   DATA:  2048-12-01  |   ROK:  29  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:   164.24  |   KAPITAL:  1723.82  |   NADPLATA:     0.00  |   KAPITAL:  21655.46  |   PKWOTA:   12
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NR:  349  |   DATA:  2049-01-01  |   ROK:  30  |   MIESIAC:   1  |   RATA:   1888.05  |   ODSETKI:   152.13  |   KAPITAL:  1735.92  |   NADPLATA:     0.00  |   KAPITAL:  19919.54  |   PKWOTA:   11
+NR:  350  |   DATA:  2049-02-01  |   ROK:  30  |   MIESIAC:   2  |   RATA:   1888.05  |   ODSETKI:   139.93  |   KAPITAL:  1748.12  |   NADPLATA:     0.00  |   KAPITAL:  18171.42  |   PKWOTA:   10
+NR:  351  |   DATA:  2049-03-01  |   ROK:  30  |   MIESIAC:   3  |   RATA:   1888.05  |   ODSETKI:   127.65  |   KAPITAL:  1760.40  |   NADPLATA:     0.00  |   KAPITAL:  16411.02  |   PKWOTA:    9
+NR:  352  |   DATA:  2049-04-01  |   ROK:  30  |   MIESIAC:   4  |   RATA:   1888.05  |   ODSETKI:   115.29  |   KAPITAL:  1772.77  |   NADPLATA:     0.00  |   KAPITAL:  14638.25  |   PKWOTA:    8
+NR:  353  |   DATA:  2049-05-01  |   ROK:  30  |   MIESIAC:   5  |   RATA:   1888.05  |   ODSETKI:   102.83  |   KAPITAL:  1785.22  |   NADPLATA:     0.00  |   KAPITAL:  12853.03  |   PKWOTA:    7
+NR:  354  |   DATA:  2049-06-01  |   ROK:  30  |   MIESIAC:   6  |   RATA:   1888.05  |   ODSETKI:    90.29  |   KAPITAL:  1797.76  |   NADPLATA:     0.00  |   KAPITAL:  11055.27  |   PKWOTA:    6
+NR:  355  |   DATA:  2049-07-01  |   ROK:  30  |   MIESIAC:   7  |   RATA:   1888.05  |   ODSETKI:    77.66  |   KAPITAL:  1810.39  |   NADPLATA:     0.00  |   KAPITAL:   9244.88  |   PKWOTA:    5
+NR:  356  |   DATA:  2049-08-01  |   ROK:  30  |   MIESIAC:   8  |   RATA:   1888.05  |   ODSETKI:    64.95  |   KAPITAL:  1823.11  |   NADPLATA:     0.00  |   KAPITAL:   7421.77  |   PKWOTA:    4
+NR:  357  |   DATA:  2049-09-01  |   ROK:  30  |   MIESIAC:   9  |   RATA:   1888.05  |   ODSETKI:    52.14  |   KAPITAL:  1835.92  |   NADPLATA:     0.00  |   KAPITAL:   5585.85  |   PKWOTA:    3
+NR:  358  |   DATA:  2049-10-01  |   ROK:  30  |   MIESIAC:  10  |   RATA:   1888.05  |   ODSETKI:    39.24  |   KAPITAL:  1848.81  |   NADPLATA:     0.00  |   KAPITAL:   3737.04  |   PKWOTA:    2
+NR:  359  |   DATA:  2049-11-01  |   ROK:  30  |   MIESIAC:  11  |   RATA:   1888.05  |   ODSETKI:    26.25  |   KAPITAL:  1861.80  |   NADPLATA:     0.00  |   KAPITAL:   1875.24  |   PKWOTA:    1
+NR:  360  |   DATA:  2049-12-01  |   ROK:  30  |   MIESIAC:  12  |   RATA:   1888.05  |   ODSETKI:    13.17  |   KAPITAL:  1874.88  |   NADPLATA:     0.00  |   KAPITAL:      0.36  |   PKWOTA:    0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
