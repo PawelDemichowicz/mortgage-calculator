@@ -36,15 +36,7 @@ public class MortgageCalculationServiceIT {
     @DisplayName("Whole application calculation works correctly")
     void test() {
         // Given, when
-        InputData inputData;
-        try {
-            inputData = new InputDataService().read();
-        } catch (Exception e) {
-            System.err.println("Error while loading input data, interrupting. Error: " + e.getMessage());
-            return;
-        }
-
-        mortgageCalculationService.calculate(inputData);
+        mortgageCalculationService.calculate();
 
         // Then
         final List<String> resultContent = readResultContent();

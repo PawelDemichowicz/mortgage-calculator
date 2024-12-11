@@ -16,19 +16,19 @@ public class MortgageCalculator {
         ApplicationContext context = new AnnotationConfigApplicationContext(ApplicationConfiguration.class);
         InputData inputData;
 
-        try {
-            inputData = new InputDataService().read();
-        } catch (Exception e) {
-            System.err.println("Error while loading input data, interrupting. Error: " + e.getMessage());
-            return;
-        }
-
-        inputData = inputData.withAmount(new BigDecimal("298000"))
-                .withMonthsDuration(new BigDecimal(360))
-                .withRateType(RateType.CONSTANT)
-                .withOverpaymentReduceWay(Overpayment.REDUCE_RATE);
+//        try {
+//            inputData = new InputDataService().read();
+//        } catch (Exception e) {
+//            System.err.println("Error while loading input data, interrupting. Error: " + e.getMessage());
+//            return;
+//        }
+//
+//        inputData = inputData.withAmount(new BigDecimal("298000"))
+//                .withMonthsDuration(new BigDecimal(360))
+//                .withRateType(RateType.CONSTANT)
+//                .withOverpaymentReduceWay(Overpayment.REDUCE_RATE);
 
         MortgageCalculationService mortgageCalculationService = context.getBean(MortgageCalculationService.class);
-        mortgageCalculationService.calculate(inputData);
+        mortgageCalculationService.calculate();
     }
 }
