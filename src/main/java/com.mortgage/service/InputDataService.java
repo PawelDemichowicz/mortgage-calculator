@@ -3,7 +3,9 @@ package com.mortgage.service;
 import com.mortgage.model.InputData;
 import com.mortgage.model.RateType;
 import org.springframework.stereotype.Service;
+import org.springframework.util.ResourceUtils;
 
+import java.io.File;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.nio.file.Files;
@@ -20,18 +22,20 @@ import java.util.stream.Stream;
 @Service
 public class InputDataService {
 
-    private static final Path INPUT_DATA_FILE_LOCATION = Paths.get("src/main/resources/inputData.csv");
+    private static final String INPUT_DATA_FILE_LOCATION = "classpath:inputData.csv";
 
-    public InputData read() throws IOException {
-        Map<String, List<String>> content = Files.readString(INPUT_DATA_FILE_LOCATION)
-                .lines()
-                .collect(Collectors.groupingBy(line -> line.split(";")[0]));
+    public Optional<InputData> read() {
+        final Map<String, List<String>> content = readFile();
+        if (content.isEmpty()) {
+            return Optional.empty();
+        }
+
         validate(content);
 
         Map<String, String> inputData = content.entrySet().stream()
                 .collect(Collectors.toMap(Map.Entry::getKey, entry -> entry.getValue().get(0).split(";")[1]));
 
-        return InputData.builder()
+        return Optional.of(InputData.builder()
                 .repaymentStartDate(
                         Optional.ofNullable(inputData.get("repaymentStartDate"))
                                 .map(LocalDate::parse)
@@ -71,7 +75,19 @@ public class InputDataService {
                         Optional.ofNullable(inputData.get("overpaymentProvisionMonths"))
                                 .map(BigDecimal::new)
                                 .orElseThrow())
-                .build();
+                .build()
+        );
+    }
+
+    private static Map<String, List<String>> readFile() {
+        try {
+            File file = ResourceUtils.getFile(INPUT_DATA_FILE_LOCATION);
+            return Files.readString(file.toPath())
+                    .lines()
+                    .collect(Collectors.groupingBy(line -> line.split(";")[0]));
+        } catch (Exception e) {
+            return Map.of();
+        }
     }
 
     private Map<Integer, BigDecimal> calculateSchema(String schema) {
