@@ -1,10 +1,10 @@
 repaymentStartDate;2020-12-10
 wiborPercent;1.70
-amount;301953.46
-monthsDuration;180
+amount;298000
+monthsDuration;360
 rateType;CONSTANT
 bankMarginPercent;1.6
 overpaymentSchema;12:10000,3:10000,5:10000,6:10000,7:10000
-overpaymentReduceWay;REDUCE_PERIOD
+overpaymentReduceWay;REDUCE_RATE
 overpaymentProvisionPercent;3
 overpaymentProvisionMonths;36
