@@ -23,6 +23,7 @@ public class MortgageCalculationServiceIT {
     private static final String EXPECTED_GENERATED_FILE = "classpath:expectedGeneratedResult.txt";
 
     @Autowired
+    @SuppressWarnings("unused")
     private MortgageCalculationServiceImpl mortgageCalculationService;
 
     @BeforeEach

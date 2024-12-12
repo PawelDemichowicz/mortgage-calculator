@@ -20,11 +20,11 @@ public interface PrintingService {
             """;
 
     String SUMMARY_INFORMATION = """
-                        
+            
             SUMA ODSETEK: %s ZL
             PROWIZJA ZA NADPLATY: %s ZL
             SUMA STRAT: %s ZL
-                        
+            
             """;
 
     String SCHEDULE_TABLE_FORMAT =
