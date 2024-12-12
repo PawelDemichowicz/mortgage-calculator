@@ -1,8 +1,6 @@
 package com.mortgage.integration;
 
 import com.mortgage.configuration.ApplicationConfiguration;
-import com.mortgage.model.InputData;
-import com.mortgage.service.InputDataService;
 import com.mortgage.service.MortgageCalculationServiceImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
